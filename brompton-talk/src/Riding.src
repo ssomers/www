@@ -1,0 +1,1094 @@
+<!--*-html-*--><!DOCTYPE HTML SYSTEM><HTML><HEAD><TITLE></TITLE></HEAD><BODY>
+
+Problems covered elsewhere:
+<UL>
+<LI>@ticking
+<LI>@gear_trouble
+<LI>@Punctures
+<LI>@slipping_dynamo
+<LI>@autoengaging_dynamo
+<LI>@blown_tail_lights
+<LI>@slipping_seatpost
+<LI>@broken_spokes
+<LI>@chainloss
+<LI>@FrontLightLoss
+<LI>@Pantour
+<LI>If you have problems or worries about a particular part, look it up in the Tinker section...
+</UL>
+
+
+#improve_efficiency How can I go faster?
+  To improve transmission efficiency, from muscle to movement:
+  <UL>
+  <LI>@GearingChange
+  <LI>@AlternativeTyres
+  <LI>@clips
+  <LI>Adopt a more aerodynamic riding position: @rotating 
+  <LI>@PowerAssist
+  </UL>
+
+  #rolling_resistance_test Rolling resistance tests
+      {Stein Somers, May 1998}
+        With a fresh pair of primo's (mail-ordered from and then taken back to
+        England...) I cycled around until I found paradise: a low traffic,
+        wind shielded stretch of smooth tarmac descending steeply and then
+        rising gently, with well spaced road markings starting at the perfect
+        place.  One problem was I didn't have a pressure gauge...  Anyway I
+        let myself roll down and up again without peddling and counted the
+        road markings, for different bike configurations.  The results are
+        in the table below the load of text I will now produce.
+        <BR>
+        While establishing the accuracy of the test, as well as a measure for
+        the 90psi still left in my rear Raleigh Record, a puncture crossed
+        my way... down to the 70psi my compact pump can deliver, at least
+        given enough human power.
+        <BR>
+        First test: the best coasting gear of my five speed.  Corresponding
+        to the sound (and feel, I used to wonder?), I found 2nd gear is best,
+        4th worst and the others lie somewhere in between.  Sometimes 3th gear
+        is as silent and as smooth as 2nd, sometimes it seems something inside
+        sticks and 3rd makes more noise and the bike doesn't roll as far.
+        All the same, I conclude that the circle around the 2 on the five
+        speed gear controller means not only "adjust the rod in this gear"
+        but also "0th gear" for peddleless cruising.
+        <BR>
+        Second test: I exchanged the rear Raleigh for a Primo, and...
+        my goodness, it clearly slowed me down!  In retrospect the difference
+        wasn't that great and I'm sure my arms didn't quite push up the psi
+        in the Primo as they did in the punctured Raleigh.
+        <BR>
+        I then set my hopes on the front tyre.  This was still a Raleigh
+        set a low pressure because lately I had been riding through the
+        cobblestone infested centre of Ghent.  What a relief when this
+        proved to be the place where a Primo scored!  Particularly if
+        you inflate them at a moderate pressure.
+        <BR>
+        Just in time the idea occurred to relate these results to other topics
+        of riding efficiency.  Here we go. The Gain/Loss numbers reflect the
+        extra distance I could roll compared to the reference.  This is
+        definitely not a linear measure!
+        <BR>
+        Reference = Standard T5 = Raleigh Records at (very roughly!) 60psi,
+        coasting in 2nd gear, upright riding on the standard best folding
+        handlebar position, pannier clipped in the front luggage block,
+        95kg total load, tall 1m96 rider.  Anything else?  I carried the same
+        amount and shape of load on all tests and repeated every roll
+        several times (I even postponed organic waist dumping for the sake of
+        science!  I did sweat under the midday sun though...).
+        <TABLE>
+        <TR><TH>Change				<TH>Gain/Loss (accuracy: +/- 0.5)
+        <TR><TD>Rear 40psi Primo			<TD>-1
+        <TR><TD>Rear 60psi Primo	 		<TD> 0
+        <TR><TD>Deflate front Raleigh to 40psi	<TD>-2
+        <TR><TD>Front 40psi Primo			<TD>+1
+        <TR><TD>Front 60psi Primo			<TD>+2
+        <TR>
+        <TR><TD>Handlebars raised 15cm via curved bar ends
+                (very upright and comfy)		<TD>-1
+        <TR><TD>Lie down on handlebars 
+                    (very aero and uncomfy)		<TD>+5
+        <TR><TD>Lift legs and align on main tube
+                    (scooter like, still comfy)	<TD>+1
+        <TR><TD>Tie pannier to rack			<TD>+1
+        <TR>
+        <TR><TD>Coast in 4th gear instead of 2nd	<TD>-1
+        <TR><TD>Engage Nordlight dynamo		<TD>-1
+        </TABLE>
+
+      <UL>
+      <LI>{A2B, May 98}
+        Here in Castle Cary, we've been using the same test hill for some time. 
+        We've found that if you put the same rider on the same bike, and sit him 
+        in the same position under the same weather conditions, the results are 
+        pretty accurate.
+        <BR>
+        Measuring average speed in MPH from a standing start, we found that 
+        Swallow tyres performed best at 70psi, hitting 13mph, a well-worn set of 
+        Raleigh Records performed best at 60psi, achieving 13.6mph, and the 
+        Primos gave the best results, managing almost 14mph at just 50psi.
+        We went on to fine tune the pressures and found a performance peak at 
+        about 14.3mph with 65psi in the rear tyre and 45psi in the front.
+        1.3mph best to worst might not sound much, but it's a 10% performance 
+        boost for very little outlay.
+        <BR>
+        Obviously, the weight of the rider has an effect, but we went on to 
+        produce a recommended pressure v rider weight chart, which was printed in 
+        Folder 18. There's no doubt that Primos give a clear advantage, but you 
+        need to set the pressures with care.
+      </UL>
+
+  # Suspension versus efficieny (biopacing?)
+    <UL>
+    <LI>{Stein Somers, May 2000}
+      A Brompton user recently aired concerns about the suspension block
+      consuming part of his muscular output. Something referred to as
+      biopacing, although an internet search suggests this term was really
+      invented for oval chainrings.  Anyway, everyone can see the suspension
+      block squeezed in and out at each pedal stroke; when you try to do the
+      same off the bike, the effort seems huge.
+      <BR>
+      So, I wondered while stumping up a steep hill the other day, how much is
+      that squeaky little devil costing me?  When riding at speed with a
+      standard 6W generator on, it doesn't take long for the generator to
+      start feeling warm.  The 6W is the power sent over to the bulbs; more
+      than twice that power is taken from the wheel.  Roughly some 10W is
+      wasted heating up the generator.
+      <BR>
+      The suspension block doesn't seem to become warm at all.  Of course
+      rubber doesn't pronounces its temperature as good as metal, but if I've
+      been wasting a sizable amount of energy, shouldn't I feel *something*?
+      <BR>
+      I gather from literature that during this effort, leaving me out of
+      breath, I might be hammering 400 watts through that poor chain.  And it
+      seems the suspension block accounts for at most a mere percent of that?
+      So why bother...
+    <LI>{Matt Hayworth, May 2000}
+      Yea, it seems like the point of shock absorption and springy seats is partly
+      to cut down on rider fatigue which results in part from being jarred
+      unnecessarily.  So the shock absorber probably does more good than harm.
+    <LI>{David Dodson, May 2000}
+      Pure springs do not absorb any energy (but absorb shocks...).
+      <BR>
+      So-called 'shock absorbers' (in the conventional use of this term)
+      are energy absorbers used to attenuate oscillations in springy
+      position-control systems such as transport suspension systems.
+      Energy-wise they convert motive power (only) to heat. A springy
+      suspension element may be included in the shock aborber unit
+      (as in some car shock absorbers with an outer coil spring element).
+      <BR>
+      Rubber shock absorbers are (usually) in effect mainly springs,
+      but not pure springs -- the rubber's hysteresis absorbs energy.
+      But if they don't heat up much they are not absorbing much energy.
+      <BR>
+      But if you have anything at all like a car shock absorber -
+      typically an oil filled cylinder with a piston with holes in
+      it that the oil is forced through - then we are probably in
+      the realms of much greater energy absorbtion than with rubber.
+    </UL>
+
+
+# How can I improve comfort?
+  Discussed elsewhere:
+  <UL>
+  <LI>@seatpost_height
+  <LI>@Saddle
+  <LI>@alt_handlebars
+  <LI>@rotating
+  <LI>@bar_ends
+  <LI>@Handgrips
+  <LI>@clips
+  <LI>@controllers
+  <LI>@GearingChange
+  <LI>@recumbent_kit
+  </UL>
+
+#GearingChange.html Changing the Brompton's gearing set-up
+  Three things you might desire:
+  <UL>
+  <LI>shift the gearing range to a more suitable level (trade in the highest gears for very low ones or vice versa):
+    <ul>
+    <li>@chainring
+    <li>@sprocket
+    </ul>
+  <LI>extend the gearing range (add very low or very high gears):
+    <ul>
+    <li>@multi_chainring
+    <li>@schlumf
+    </ul>
+  <LI>decrease the gearing steps (add gears in between the existing range):
+    <ul>
+    <li>@multi_chainring
+    <li>@schlumf
+    <li>@alt_hub_gears
+    </ul>
+  </UL>
+  For opinions on what is a suitable range, see @reduced_gearing.
+
+# What are gear inches?
+  {Peter Amey, Jul 1998}
+    <DFN>Gear inches</DFN> are the diameter in inches of wheel that would roll as far in one
+    revolution as the bike would travel for one turn of the pedals in a gear
+    of the same number of inches.  Imagine an "ordinary" (or penny-farthing)
+    bike; a 90" gear is the same as riding one with a 90" front wheel. 
+    <BR>
+    Metric gears are usually in terms of the actual distance travelled for 
+    one turn of the pedals.  i.e. 
+    <BR>
+    pi * GearInInches * ConversionFromInchesToMeters
+  <BR>{Ruud van Tol, Jul 1998}
+    In other words: it's the (imaginary) size of the wheel when there wouldn't
+    be any gear.
+  <UL>
+  <LI>{Ian (two Bromptons) Oliver, Sep 2001}
+    <A HREF="http://groups.yahoo.com/group/BromptonTalk/files/Brompton%20gearing.xls">Excel spreadsheet for working out Brompton gearing</A>
+  <LI>{Bob Gelman, Oct 1999}
+    This Gear Calculator should be very helpful!
+    http://www.pagesz.net/~scotty/gear-form.html
+  </UL>
+
+#ticking Is it normal for the hub gears to go "tick-tick-tick" when you pedal forward?
+  <UL>
+  <LI>{Stein Somers, Sep 1997}
+    Absolutely, though only in middle (neutral) gear and above.
+  <LI>{Anthony Cartmell, Sep 1997}
+    The ticking is coming from a free-wheel ratchet in the hub gear.  The
+    hub has a couple of epicyclic gear sets, with dog clutches and ratchets
+    to change gears.  If you change gear while free-wheeling you can hear
+    the different ratchets buzzing at different speeds.
+  <LI>{Phil Gough, Sep 1997}
+    My older model 5-speed ticks at twice the rate as it has two sets of pawls.
+  </UL>
+
+# My heels hit those darn castors!
+  {Custfold}
+  [The rear castors, at the front of the rear rack, are]
+  odd shaped rollers that used to catch my heels (usually its women who
+  have the problem as they cycle with feet closer in).
+  <UL>
+  <LI>{David Hansen, Sep 1997}
+    This was a problem for this male, until I unscrewed the Brompton 
+    wheels, turned them round and screwed them back in. As a result it is 
+    hard to catch my shoes, as they slide down the slope of the coned 
+    part of the wheel.
+    <BR>
+    This does make the folded bike slightly less stable, but not to any 
+    noticeable extent.
+  <LI>{mike, Oct 1998}
+    I have big feet and did a lot
+    of damage to my ankles by knocking them on the castors at the front end of
+    the rack in the first couple of weeks -
+    I now have an unstable bromton when folded because I removed the front
+    (large castors) and I have not made my ankles bleed since.
+  <LI>{Mr A Follis, Oct 1998}
+      My problem with the castor wheels is that they snag the
+      turn-ups on my good trousers.  I've ripped one pair.  Then again maybe
+      turn-ups are out of fashion and Brompton are just doing me a favour.
+  <LI>Another cure: @upgrade_castors
+  </UL>
+  You can experience the same problem with luggage: @heal_hindrance.
+
+
+
+#waggle Waggly rear ends
+  {Roland Elsenberg, Aug 1998}
+    [...] I found it less precise in steering.
+    This is probably due to a worn hinge between the main
+    frame and the rear triangle.
+  <UL>
+  <LI>{Rob Cope, Aug 1998}
+    Roland & anyone else with waggly rear ends (Brompton, that is),
+    <BR>
+    You need to get your dealer/agent to have a look ASAP.  The main bearing
+    between frame & rear triangle is worn or loose: unlikely to break
+    (substantial piece of silver steel) but it does you & the bike no good to
+    keep using it.  Whatever you do, do *not* just tighten up end screws with an
+    allen key: they are Loctited in place & screwing/ unscrewing breaks the seal
+    & makes it likely to loosen up more.
+    <BR>
+    When this happened to me last year, I ended up back at the factory (live 2
+    km away lucky me) for a new bearing sleeve: presume your dealer can sort it
+    out locally.
+    <BR>
+    All done under guarantee: Brompton stand by their products.
+  <LI>{David Henshaw - A to B Magazine, Aug 98}
+    Several very important points here. 
+    <BR>
+    ONE Never, ever unscrew the allen-head screws holding the rear triangle 
+    to the frame... honestly, there is nothing in there worth looking at. The 
+    screws are Locktighted in place at a high preset torque. If you break the 
+    Locktight, the screws WILL certainly unfasten in use and the rear 
+    triangle could come adrift.
+    <BR>
+    TWO Because the bearings need to be very accurately reamed to size with a 
+    custom-made reaming tool, only Brompton can fit them. So the assembly is 
+    neither user or dealer serviceable at present.
+    <BR>
+    THREE As enthusiastic Brompton users you can do two things: Keep an eye 
+    on the screws - any movement may mean one has come loose. If the bike is 
+    more than a year or so old, run oil into the bearings on a regular basis. 
+    If you commute every day in all weathers, that should really be once a 
+    week.
+    <BR>
+    FOUR Movement in the bearing is not a problem. My six year old bike has 
+    quite a bit of play and I barely notice it on the road. Once the rubber 
+    suspension is compressed, the triangle is restrained from moving sideways 
+    too much.
+  <LI>{Phil Gough, Mar 1999}
+    Owners in the London area of ageing and/or high mileage Bromptons which have developed slack rear fork pivots
+    may be interested that Tim Whiity of Cyclecare (30 Blythe Road, London W14 0HA)
+    has got the tool to do this job.
+    He has just rejuvenated my 1988 T5 which no longer shimmies about when carrying a load on the back.
+    Cost was just under &pound;40, but I had partially dismantled the bike before I took it in (to fix another problem).
+    You get new bushes, pivot, nylon washers and Allen-head machine screws.
+  <LI>{Custfold, Mar 1999}
+    I have - through breaking about 6 rear frames - had the rear pivot spindle out
+    on many occasions.
+    <BR>
+    A few comments -
+    <OL>
+    <LI>the spindle does wear noticably, and on one quadrant more than the other 3
+    I fit new spindles if I notice wear.
+    <LI>the ptfe washers collapse - I now use brass ones
+    <LI>the system for the machine screws is not brilliant - I have tried star
+    washers under the coutersink faces, and am trying to locate screws with better
+    quality drive sockets which can be impact driven to tighten them and do away
+    with the unreliable locktite system.  A tip is that if your chainring is
+    larger you cut a nick to allow the bolt to be tightened without having to take
+    the transmission apart.
+    </OL>
+  <LI>{David Edge, Apr 1999}
+    AFAIK the advice against DIY is the need to precision ream the new bushes
+    once you've put them in.
+  <LI>{Custfold, Mar 2000}
+    It may be worth checking first that the PTFE washers that take side thrust
+    are not kaput.
+    <BR>
+    I've replaced mine with brass washers and also looked at impact drive CSK
+    machine screws as both these are sources of slop in rear end usually well
+    before the pivot bush fails - but they do wear, as pins removed but destroyed
+    when changing rear frames have shown.
+  <LI>If you want to DIY anyway: @removing_rear_triangle.
+  </UL>
+
+# Adjusting suspension
+  If the suspension is too weak for your weight...
+  <UL>
+  <LI>
+    Try the fully adjustable version suggested by the designer - aka a
+    standard Brompton block with a jubilee clip (approx 50p) restraining
+    its, err, fuller figure from bulging too much.
+    [ A jubilee clip or hose clamp (US) is ] a circular band tightened by
+    a screw, often used to hold hosepipes on to water taps.  Ironmongers
+    have them.  Result: fully adjustable suspension!
+  </UL>
+
+# Rear mudguard too short (the mud striped back syndrom)
+  <UL>
+  <LI>{Bernd Bieker}
+    I had the same problem and attached a small 4" flexible plasic strip to
+    the rear fender.
+  <LI>{Jane Thomas}
+    Definitely too short! Although when I phoned Brompton they denied there
+    was a problem. I ended up with a super-duper extension made out of a
+    front muguard and castor so the whole thing still rolls under when
+    folding (I found my early experiments caught the ground when flicking
+    the wheel under to fold). The extra length also allowed me to mount a
+    Busch & Muller 4D lite on the mudguard (dynamo driven LED light +
+    capacitor so it stays on when you stop), and I am very happy with the
+    arrangement.
+  <LI>{Malcolm Lyon}
+    My only disappointment with the bike has been the silly short mudguard, or
+    fender, fitted to the L model.  When riding in the rain, I found I finished
+    up with a skunk stripe up my back.  I am pleased to say I have solved the
+    problem by developing a semi rigid mud flap which in no way restricts the
+    folding.  Brompton Bicycles did dot think it could work but I have
+    demonstrated it to them at their factory and can assure you it does.
+    <BR>
+    It is easy to make.  Just cut a piece of semi stiff butyl rubber sheet of
+    one eighth inch thickness into a rectangle of 4 inches by 1 and 7/8ths. It
+    can be held in place by 2 pop rivets with rivet washers to sandwich it. Or
+    if you want a really simple fitting drill two 3mm holes about 15mm apart,
+    down the centre line on the mudguards tail and secure the flap with 3mm
+    cable tie.
+    <BR>
+    I have made up a small stock of these and I am pleased to say that I have
+    recieved a good number of orders from Folding Society members here in UK.  I
+    mention the construction details in case any of our Brompton pals in more
+    isolated areas, like the US, want to overcome the problem.  I call the
+    device a Damp Patch Eliminator,... DPE ... or Skunky for short!
+    <BR>
+    For the kits that I produce, I use butyl rubber of about 3.5mm thickness.
+    When this is riveted in place under the mudguard it takes up only about 4mm
+    which is a very small intrusion into the clearance.. the cable tie method is
+    slightly thinner.  On the L model to increase the clearance you merely
+    gently squeeze the four mudguard stays together towards the centre plane of
+    the wheel and the clearance is increased.  This is needed anyway from time
+    to time with thumping the roller wheel takes when tucking the rear wheel.
+    <BR>
+    The natural curvature induced by the mudguard to the flap, adds to it
+    rigidity giving it a springyness to resist deformation by the tuck under.
+    It works beautifully.  I took it to show the Brompton factory - they were
+    surprised but impressed.. and said they had been considering a solution. 
+    <BR>
+    On the T model there should be enough clearance but I guess one can gain bit
+    more through adjustment.  
+    <BR>
+    You do not need a wide or pear shaped flap the rear as the spray comes
+    straight off the centre of the tyre.  On the front a wide flap is needed
+    because your also have to cope with the spray deflected from the road
+    towards the botton bracket and your feet.  I doubt if a curved in front flap
+    will over come this problem.
+    <P>
+    I am marketing a simple kit which will completely eliminate the problem of
+    your rear damp patch.  This has been developed and tested on the L model but
+    I hear from people that it works well on the T model too.
+    <BR>
+    2 pounds 50 pence including postage.
+    <TABLE BORDER=1><TR>
+      <TD>Malcolm Lyon
+      <BR>2 The Mill, Turvey, Beds, MK43 8ET
+    </TABLE>
+    This is not commercial venture - just a service to fellow Brompton enthusiasts!
+  <LI>{Peter Amey}
+    A rear mudflap works wonders.  On my T5 I found I could not use any of the
+    commercial mudflaps I found because they all need to go between the
+    mudguard and the tyre; on my bike at least, there simply isn't room.  I
+    cut a mudflap out of an old inner tube and used impact adhesive (Evostick)
+    to fasten it to the outside of the (thoroughly cleaned with alcahol)
+    mudguard.  The flap is 3 inches long and extends 2 inches below the end of
+    the mudguard.  It is pear shaped being the width of the mudguard at the
+    top and about 3 inches across near the bottom.  To make it keep its shape
+    I laminated it with a couple more pieces of inner tube using rubber
+    solution.  I no longer have a mud stripe up my back so it must work. 
+    Being rubber, the midflap doesn't seem to suffer from flicking the ground
+    when I break the bike's back (before wringing its neck to complete the
+    fold :-)) - stiffer materials, such as are being discussed for front
+    mudguard extensions, might well get ripped off during the folding process. 
+  <LI>{Stein Somers}
+    At the moment a thin plastic patch the width of the mudguard (cut from
+    the cover of a pocket agenda) extends my rear mudguard for exactely
+    4cm measured at the centre.  It is fixed between a stronger plastic
+    strip (cut from a telephone card :) and the inside of the mudguard,
+    with 2 tiny nuts and bolts through the sides of the mudguard, and has
+    been guarding mud without intervention for a pleasant time.
+  <LI>{Mark James}
+    I used a strip of reflective fluorescent strip super glued onto my L5 
+    approx 5cm flap and 1.5-2 stck onto the mudguard  Had it on for four 
+    months and no muddy strip
+  <LI>{Stein Somers, Apr 1998}
+    Saw a brand new T5 with a new fancy looking type of mudguards, about
+    a centimetre longer at the rear.  Brompton is strangling the mudguard
+    extension business! 
+  <LI>{Nico J. de Boer, Oct 1998}
+    <A HREF="http://www.ish.nl/tromm">Tromm</A> (our famous Brommpton dealer in Amsterdam)
+    has a very beautiful _and_ effective rubber extension of the mudguard.
+    You see this type of thing in increasing numbers on "mountain" type of bikes in the
+    Netherlands. Maybe it's a common accessory these days.
+  <LI>{Chris Newport, Nov 1998}
+    I took the advice posted in this list (I think) and cut up an old inner
+    tube, cementing 2 layers of the rubber together using standard puncture
+    repair solution to give the right thickness.
+    <BR>
+    Then loosen the screws that hold the mudguard stay and remove the fixing
+    plate, cut 2 holes through the rubber, and fasten the rubber strip to
+    the mudguard beneath the fixing plate.
+    <BR>
+    It took about 15 minutes and works just fine.
+  <LI>{Ulric Schollaert, Jun 1999}
+    Velodroom (Brussels) also fitted a self-made flap for the back wheel (made
+    out of a strong, flexible sort of gum, fixed with screw and bolt for easy
+    replacement).  I've found out that it holds very well and doesn't suffer
+    from regular folding/parking.  I wonder how B. have not come up with the
+    brilliant idea themselves!
+  <LI>{Mark James, Jan 2000}
+    Add a length of rubber / reflective tape approx 6cm at end of
+    mudguard/fender a smear of superglue after cleaning the fender does the
+    trick wont last for ever but my first effort lastest 2 years of moderate
+    use. Custfolder has fantastic but rather large cordura type flaps that
+    really stop everything ace for the frontalmost reaches the deck.
+  </UL>
+
+
+# Loose frame clamp
+  {Custfold, May 1998}
+    I've been experiencing a loose main frame clamp with annoying regularity
+    lately.  This ocures even when I'm positive that it was fully tight at the
+    start of my ride.
+    <BR>
+    It may be that the clamp plate has stretched - I'm checking with Brompton
+    for a service gauge measurement to determine when a plate should be changed
+    (e.g. the gap between clamp seat and frame plates).
+    It may be movement in the frame fretting at the joint.
+    <BR>
+    The indicator when riding is the distinctly unnerving floppiness
+    in front end response when braking hard.  
+  <UL>
+  <LI>{Ludger Offerhaus, May 1998}
+    I'm surprised to hear you get that, My clamps tend to get stuck more and
+    more, taking increasing force to unscrew them.
+  <LI>{Custfold, Feb 1999}
+    If the clamp face bottoms out on the hinge - it has spread out and shoul be
+    changed (a set of spark plug feelers helps here).  The clue is usually
+    cracking along the inside faces.
+  </UL>
+
+# Loose chainguard
+  <UL>
+  <LI>{Willi Mindak, Feb 99}
+    The chainwheel disk (chainguard) is attached at 5 points to holes in the chainwheel.
+    When starting at a traffic light I accidently kicked 2 of these 5 fixing points out of their holes in the chainwheel.
+    Trying to get them into their holes again prooved difficult. After some banging and cursing I examined the chainguard closer.
+    Turns out that the chainguard has little plugs fitted where it is inserted into the chainwheel.
+    You push the plugs back to the outside, insert the chainguards plastic hooks into the holes in the chainwheel,
+    and push the plugs flush with the rest of the chainguard. Job done.
+    When you try to push the chainguard back on without moving the plugs first you are more than likely to damage the chainguard hooks,
+    and the thing will come off again.  No earth- shattering revelation, but I thought I'd let you know.
+  </UL>
+
+# Undesirable sounds
+  This is not the most common complaint, but a frustrating one.
+  It seems all sounds can be supressed, except those coming for the hub's internal gears.
+  Some report they rattle, some hear no more then the normal ticking in high gears.
+  <UL>
+  <LI>{Ian Charles, Aug 2000}
+    Likewise, we haven't experienced any significant noise on either of our two
+    Bromptons in more than ten years (no idea of mileage), certainly no worse
+    than with our various conventional bikes.
+    <BR>
+    Don't want to spoil this fascinating string, but surely a product which is
+    at least in part hand built will vary; the type of use it's put to will
+    affect likelihood of rattles, squeaks etc developing; and - this is
+    something which has been alluded to before, I think - what about the weight
+    of the rider and possible load?
+    <UL>
+    <LI>{Mike, Aug 2000}
+      Well I'm 13 and a half stone and I've had an additional 3 stone of shopping
+      on it and no odd rattles.
+    </UL>
+  </UL>
+
+  # Localising the nosiy culprit
+  <UL>
+  <LI>{John R. Bolt, Oct 1999}
+    Don't be too sure that the noise is coming from the bottom bracket. I had a
+    similar situation a year ago, and went slightly nuts trying to figure out
+    the source of the noise. I, too, was pretty sure it was from the area of
+    the bottom bracket, and figured it was probably one of the pedals. After a
+    lot of experimentation, I finally established that the source was actually
+    the front wheel. The bearings had apparently not been adequately lubricated
+    in the first place, and were now noisy, but with a sound that I would not
+    have expected.
+    <BR>
+    So it can be quite difficult to localize a noise, and the "obvious" source
+    may not be the real offender.
+  </UL>
+
+  # Clanking
+    {Nico van Beek, Aug 2000}
+      I bought, some one and a half year ago a T3. Great fun. Everybody wanted
+      folding demo's.
+      However, after some time a vague clanking started in the neighbourhood
+      of the back-wheel.
+      Couldn't find exactly where. I performed greasing and tightening of
+      screws and nuts. Didn't solve the problem.
+      So: back to the dealer, who checked the bike.
+      "Did you solve my problem"? No, that appeared to be not really possible.
+      Had to do with something within the nave of the back-wheel. A common
+      Brompton problem. Dismantling the nave would not give any solution.
+      Not very satisfactory! The rattling became worse (and in Holland we do
+      not have tarmac everywhere as in California).
+      So I wrote to the factory. Answer came from the main distributor in
+      Holland by telephone. A nice chat about grease, oil, tirepressure etc.
+      However it may be: a well known problem! Had to do with the general
+      construction: only one hinge between back and front parts and therefor
+      no possibility to spread the rumour over the total frame.
+      Again, not satisfactory. I'm now in the stage to advise others not to
+      buy Brompton, unless they can cope with a lot of, now very noisy
+      rattling. I took the nave completely apart, greased, oiled, well did
+      everything, but the problem still exists.
+    <BR>
+      Freewheeling on, let's say, rough surfaces,
+      is the main problem. Has nothing to do with little wheels but with the
+      inside of the SA nave.
+    <UL>
+    <LI>{Stuart Quick, Aug 2000}
+      I had this on my T5 for a while. Everytime I hit a bump
+      there was an almighty 'clang' sound. I originally thought that
+      it was the rear jockey wheels...however, I found out that the
+      back wheel was very slighly loose. i.e. the compression nut
+      on the rear bearings was not done up enough. I found this
+      out by turning the bike upside down and gripping the wheel,
+      and being able to rock it side to side very slightly. I
+      took the wheel off and did up the compression nut just
+      enough to stop the play - but no more than that as the
+      bearings will wear out prematurely if too tight.
+    <LI>{Jonathan Brickley, Aug 2000}
+      i have a similar rattle on my 500 mile brompton L5...I assume it is the
+      little plastic wheels rotating and rattling(that's what it sounds
+      like)...I keep forgetting to grease them to see if this damps it
+      out....May try it now as you have reminded me.Will advise if it does the
+      trick after riding to work tomorrow...
+      <BR>
+      Just been and greased the wheels...they are swines to undo as Brompton
+      have used loctite on them....needed a foot long flat screwdriver with
+      self grip wrench clamped to the shaft of the screwdriver, before they
+      were beaten!Need to rest the bike on a solid surface and really lean on
+      the screwdriver handle to stop it slipping.On a quick roadtest, bike is
+      much quieter(you don't realise how noisy it is until the rattle has
+      gone.....)
+      The little wheel on the back of the mudguard is riveted together, may be
+      worth drilling out so it can be greased,but I sprayed some gooey
+      motorcycle chain lube on it ...seems to have done the trick.See if
+      that's the problem on your bike.....
+      ps don't forget to reloctite the screws
+    <LI>{Nico van Beek, Aug 2000}
+      Who knows! Curious. But I don't think that's the problem. It's a
+      metallic rattle.
+    <LI>{Roland Elsenberg, Aug 2000}
+      some weeks ago I took my Sprinter 5 apart. I found that a tiny spring from a
+      paw had come loose. After reassembly the hub was much quieter, but has
+      started to rattle again. I don't know if the rattle is the same in all gears
+      or if it depends on the gear I drive. I confess I forget to sort that out
+      every time I enjoy a ride.
+      On my Gazelle with SA 3-speed a noise appeared at 10000 km. In an
+      advertisement by Sachs I found a sentence like: "some hubs are reported to
+      have lasted for 10000 km". Surely 10000 km is nothing Sturmey-Archer would
+      advertise about. The Gazelle is now well above 30000 with the hub still
+      going. It even gets quieter, or perhaps my ears worse :)
+    <LI>{Mindak Dietmar, Aug 2000}
+      Yes, the noise is a problem on my bike as well. About a year ago there
+      was a thread in this list about it. I went as far as removing everything
+      on the rear triangle and came to conclude that it originates at the hub.
+      I promised myself to take the hub apart but haven't come round to it
+      yet. One of the list members described how he had ruled out the coasters
+      by riding with his feet on the rear carrier touching the coasters. Don't
+      try this at home was his sound advice.
+      <BR>
+      I compared the noise to empty cans on a string being pulled behing the
+      bike. Very entertaining on cobblestones. I wouldn`t go as far as
+      advising people against buying a Brompton, but it is definately much
+      less enjoiable on poor surfaces. Now that the brake issue is solved we
+      might get to the bottom of this. Has anybody experiene with other hubs
+      on the Brompton? I know the rear triangle is too narrow to take other
+      hubs unmodifieed, but have heard of several attempts to use the Sachs 3
+      and 5 Speed and even the Rohloff. Do they clank as well? And what makes
+      that clanking noise in the Sturmey-Archer? Any ideas?
+    <LI>{Stein Somers, Aug 2000}
+      Boy, I'm happy my T5's are quiet.  I'm very sensitive to noise,
+      sometimes even the ticking in higher gears gets on my nerves.
+      The Sachs 7 speed on my recumbent however rattles annoyingly, although I
+      wouldn't compare it to pulling empty cans.  It also has some gear
+      changing problems.  The Sachs 5 on my cumbersome are quiet until they
+      implode (which took four months for the first two).
+      <BR>
+      I read on the Utopia Forum that the Rohloff 14 speed makes a distinct
+      grinding noise in the lowest gears.  The Shimano hubs are reported to
+      exhibit not even ticking, but I know someone who complained that the
+      roller brake rattled like hell.  I rode one recently and it was very
+      quiet and braking power smoothly controllable. Alas, maximum braking
+      power couldn't match an original Saccon brake on a Brompton in the rain.
+    <LI>{mark james, Aug 2000}
+      I have the same loud noise mostly when I freewheel (5 speed 10/96).
+      Not little wheels. My new mk III is fine after approx 1000k.
+    <LI>{mark james, Aug 2000}
+      That rattling around the rear wheel has now struck my new Mark 3 whilst
+      freewheeling and its starting to rattle after around 6-700 miles. It is
+      irritating on a less than smooth surface, my older bike is very noisy and
+      rattles a little even when pedalling. Something must be loose as my front
+      cones need substantial tightening too.
+      <BR>
+      Why should some rattle and others not? Haven't tried to tighten anything
+      yet, keep you posted
+    </UL>
+
+  # Squeaking
+    {Stein Somers}
+      My new T5's has been taken over by a mouse. It hides inside the
+      suspension block and produces noises that make the Brompton sound
+      like a rusty old bike.       
+    <UL>
+    <LI>{Anthony Cartmell}
+      A friend's T5 and mine both did this when they were new.  It sounds just
+      like the rubber block, but the squeak is in fact coming from the
+      suspension hinge pin.  Try putting some light penetrating oil on the
+      plastic spacers at each end of the hinge, and fold/unfold the bike
+      several times.  This eventually fixed my one (I also took the rubber
+      block to pieces, greased it etc. all to no avail).  I toyed with the
+      idea of adding a grease nipple, but this might mess up the bearing which
+      I think is oil-impregnated.
+    <LI>{Channell Wasson}
+      WD40 took squeek out for me--it never came back
+    <LI>{Peter Amey}
+      I have had this occasionally and have always been able to clear it just by
+      rotating the rubber block a quarter turn.  No idea why this works or what 
+      causes the noise in the first place :-)
+    <LI>{Phil Gough, Sep 1997}
+      Also check that it's not slack spokes causing the rim to move in relation
+      to the hub.
+    <LI>{Custfold, Sep 1997}
+      As well as the pivot, heavier riders can break up the system used to fix the
+      suspension rubber.  This will cause the bolt to 'saw' a neat slot down from
+      its original position through the plate on the rear frame, and at the same
+      time slim down the bolt by wearing away the thread, and then the rest of it.
+       This will give a squeaking noise.
+      <BR>
+      I have made a system which rigidly fixes the rubber to the frame,
+      and has a 'floating' metal bearer pad which rests on the main frame
+      (and does not crack up with heavy loads).
+      I'm not yet happy enough to say it's a sellable item,
+      and may try out some alternative rubber bushes.
+      It has made an immense improvement to my rear end.
+    <LI>{David Cox, Jun 1999}
+      In hot weather the rear suspension elastomer squeaks on mine but that's
+      after years of use. I little grease on the bold cures it but usually the
+      weather changes before I get round to doing it. Also check that the
+      mudguard or the stay is not rubbing on the tyre.
+    </UL>
+
+  #Creaking
+    <UL>
+    <LI>{Andrew Holland, Dec 1998}
+      I had creaking noise on my Brompton which took some time to trace [...]
+      to the rear suspension block (Shock absorber)
+      The  bolt was rubbing with the metal of the rear frame. The metal to
+      metal contact had cut a slot in the rear frame. The reason for the
+      failure appeared to be a stepped bush that the shock absorber bolt
+      passes through.
+      <BR>
+      The rear frame is about UKP100 and the washer is probable a few pence
+      but has to be bought as part of the rear shock absober UKP 8.
+      <BR>
+      When I got the part as with brompton parts there was some fitting
+      instructions that told you how to pre compress the shock absorber and
+      thus prevent the bush jumping out of position.
+      <BR>
+      It would appear that I am not the only one to have had this failure. It
+      would be helpful if this adjustment were in the owners manual.
+      <BR>
+      I have spen the last 12 months with a slot in the rear frame but with
+      the rear shock absorber pre compressed have had no futher trouble.
+    <LI>{Paul Weeks, Oct 1999}
+      Bucket of water over the rubber suspension thingy cured mine...
+    <LI>{Larry Chinn - The Freewheel, Oct 1999}
+      The creaking is probably caused by a loose crank arm.
+      If the sound remains after tightening the bolt, then it could be the bottom bracket.
+      Chains do stretch after a while especially after the kind of riding you described.
+      <BR>
+      A loose bottom bracket might also cause creaking.
+      It's a good idea to overhaul the bottom bracket about once a year,
+      especially if you ride during the winter in the rain.
+      <BR>
+      A stretched chain also wears down the teeth on your rear cog and more so the chain ring,
+      since it's aluminium.
+      You can tell if you've got a stretched chain if you can see space between the link and teeth
+      when you pull the chain tight.
+      Also the teeth on the chain ring will be sharp and pointed.
+      If your chain is really stretched, it will skip, especially when pedaling hard.
+      In any case, if you see any of these symptons, you need to replace the chain ring
+      along with the chain.
+    <LI>{Deborah Eacock, Oct 1999}
+      I suggest that you check your cranks.  Disconnect the chain from the front
+      chain-ring and check for wobble or looseness in your cranks.  Also, check
+      the rubber block for rear suspension.  Also, tighten the screws that hold
+      down the rear rack.
+    <LI>{Stein Somers, Oct 1999}
+      Whenever it happens to me, I get off, give a twist to the suspension
+      block and gone is the creaking.
+    <LI>{Graeme Smith, Oct 1999}
+      I experienced a creaking sound which I suspected was coming from the
+      bottom bracket or folding pedal. Shortly after this I changed the pedals
+      for SPD pedals and the creaking went away - Could it be your pedals ?
+    <LI>{Mindak, Oct 1999}
+      Me too. The creaking started after about a year with approx. 5 miles/day. I
+      suspected loose cranks, and as the proud owner of a torque wrench tightend
+      them up to the right torque. Even though they were quite loose it didn't
+      improve things. I tried a second right hand pedal from another bike and the
+      creaking disappeared.
+    <LI>{Bob Gelman, Oct 1999}
+      I've had a squeak in my seat post, where it attached to my seat, on my Birdy.
+      It drove me nuts for a while; very difficult to "listen" while you're riding.
+      I actually thought it came from the FRONT of the bike for quite a while. I
+      finally asked someone jogging if they would allow me to ride along side them
+      so they could "listen" and tell me what part of the bike it was coming from.
+      This was really deceptive since there was no torsional movement when you
+      weren't pedaling and the squeak stopped when you coasted.  I suspected
+      something in the bottom bracket, chain area for a long time.  Spokes rubbing
+      together can be especially tricky.  One just has to be patient with these
+      things and track them down.
+    <LI>{Nico J. de Boer, Oct 1999}
+      One more unexpected source of creaks while pedaling can be the frame
+      hinge: after a droplet of oil my creaks disappeared.
+    <LI>{David Edge, Oct 1999}
+      In my case, tighten the bottom
+      bracket in its housing. It does need that fancy FAG tool that's also used
+      for low-end Campag BBs. Not much you can do to overhaul it. It's one part
+      of the bike that has given me little trouble.
+    <LI>{Paul Brady, Oct 1999}
+      Creaks are usually from the crank arm losing up a little or perhaps the seat
+      post.  You can remove the crank and put a little bike grease on there and
+      tighten it back up.  That usually takes care of it.
+      <UL>
+      <LI>{Len Rubin, Nov 1999}
+        Whoa! Hold on there! Bad advice alarm! <STRONG>Don't grease the tapers of bottom
+        bracket spindles or crank arms</STRONG>! Clean them, check (and retighten the bolts
+        if necessary) on a regular basis, but do not grease them, as they are MEANT
+        to "seize"! Grease will perpetuate loosening and wear, as the softer
+        aluminum will keep traveling up the lubricated slope of the harder steel
+        crank taper. If you ride throughout the winter, more frequent maintenance
+        may be necessary to prevent galvanic corrosion, but greasing them is a bad
+        idea.
+      </UL>
+    <LI>{Robert Payne, Nov 1999}
+      It ended up being a lot more simple to fix than I
+      thought.  I ended up rotating the rubber suspension
+      block and puting oil on the folding points, cranks,
+      and pedals.  No creaking anymore.
+    </UL>
+
+  # Cracking
+    {Custfold}
+      The other day I noted that the paint at the n/s (left) joint between the
+      chainstay and pivot hinge plate had lifted.  My concern was justified, when
+      the 'crack' noises which had been up to then untraceable revealed their
+      source when the chainstay split neatly around the circumference at the high
+      stress point where the thin walled tube is brazed to the thicker pivot plate -
+      modern Bromptons do try to spread this load by having a slightly different
+      design to the first machines produced, which had the benefit and weight of
+      the substantial integrated carrier and reaer frame.  With the tie between the
+      rear triangle and the main frame, the bike remained rideable with care to
+      limp back to base, albeit with the key clue to any incident like this, the
+      unnerving crab wise travel of the main frame when compared to the road, as
+      one looks down - fi your bike starts doing this look carefully at the frame
+      for any damage..
+      <BR>
+      Note that with the rear frame securely lashed to the main frame seat tube, I
+      have 'ridden' a bike with both chain stays fractured after a particularly
+      severe bout of damage.  The n/s stay rarely goes in normal use, as the o/s is
+      the one subjected to cyclic compression & tension loads, but the attachment
+      of a trailer will obviously affect this - especially if the load is all going
+      through the n/s of the triangle to the rest of the frame.
+
+  # Ticking
+    Don't be alarmed by the normal ticking of
+    hub gears (@ticking).
+    <UL>
+    <LI>{John R. Bolt, Sep 1997}
+      I had the same annoying
+      noise coming from my T5, and I worked harder than now seems necessary to
+      isolate the source (lubricating frame clamps, adjusting bottom bracket,
+      etc.). In my case, it turned out to be coming from the right (non-folding)
+      pedal. This cheapie pedal does not seem to be adjustable, so I replaced it
+      with the right pedal from an old Bickerton, which is better quality anyway.
+      Recently, tho, a quieter "tick-tick-tick" has been coming back. I suppose
+      the new pedal is now giving me a problem--but at least this pedal is
+      adjustable, so one of these days I will have a look at it.
+    <LI>{David Henshaw, Sep 97}
+      Easy solution to this one.
+      Drill a small hole in the plastic end-cap and inject oil 
+      every couple of months. The pedal will stop ticking and last almost 
+      indefinitely. Try to avoid fitting better quality pedals - they're all 
+      heavier than the nice basic items on the Brompton.
+    </UL>
+
+  # Clicking
+  {David Goldfarb, Jun 1999}
+    My Brompton seems to have developed a click that occurs when pedaling with
+    some resistance (i.e., no click when coasting, so it's not from the
+    wheels), at a rate of one click per crank in any gear (so it's probably
+    not the gears).  Anyone else have this?  The bike is pretty new (maybe 3
+    months, 400 mi. or so) for bearings to start wearing out.
+  <UL>
+  <LI>{Deborah Eacock, Jun 1999}
+    I discovered that the click corresponded to torque on the pedals.  No, it
+    was not in the cranks, rather a slight mis-adjustment of indicator spindle
+    into the hub. Check the location of the red spot in 2nd gear.  Also, drop a
+    few drops of oil into the hub.
+  </UL>
+
+  # Screaming or scraping
+  {Richard Lighton, Jun 1999}
+    At the moment my problem is a scream (not a squeal or squeak, a full
+    blooded traffic stopping scream) from the front brakes. I've cleaned
+    the (fairly new) brake pads, adjusted them, aligned them, cursed them.
+    They still scream, mostly in low-speed braking. The back brake with the
+    same pads is as silent as one would expect. Any ideas anyone?
+  <UL>
+  <LI>{Hanel, Steven, Jun 1999}
+    By alignment I hope you mean toeing them in [@toe_in].
+  </UL>
+
+  # Rattles from the rear
+    {Norman Tulloch, Nov 1997}
+    On road surfaces which are less than perfect (e.g. on country roads which
+    are tarred but not exactly silky smooth), I get an annoying and persistent
+    rattle from somewhere at the back of my Brompton T5.  I cannot reproduce the
+    problem when the bike is stationary,
+    <P>
+    I have tried tightening all the screws and so on at the rear but this has
+    made no difference.  (I have not tampered with the rear hinge screws since
+    the Brompton owner's manual emphasises that these should be left alone.)  At
+    one time I suspected that the mudguard might be vibrating against the
+    luggage rack.  I therefore put some pieces of foam rubber between mudguard
+    and rack but still the rattle remained.  I have wondered whether the source
+    of the problem might be the castors on the rear rack, but if I try riding
+    with my feet on the castors on the front of the reack (don't try this at
+    home, children), the blasted rattle is still there.
+    <P>
+    Has anyone else had a similar problem?  I so, how did you cure it, or did
+    you just hurl the bike over a cliff, driven into an irrational rage by the
+    rattle?
+    <UL>
+    <LI>{Stein Somers, Nov 1997}
+      One Dave Holladay, casually passing through Brussels today to
+      deliver my Custom Folder order (and meet some Euro officials along
+      the way), just told me they do come loose. At least when you wheigh
+      95 kg and tow an even heavier load!
+      <BR>
+      What about the castor pair at the back?  Please, before you indulge in
+      acrobacy, may I suggest temporarily locking them with sticky tape.
+    <LI>{Custfold@aol.com, Nov 1997}
+      Have you;
+      <OL>
+      <LI>
+	Taken hold of the upper section of the rear triangle and firmly holding
+	this with bike on its wheels, tried to rotate this around the rear pivot in
+	the same plane as its axis of rotation.  My rear pivots regularly loosen and
+	there ar 2 key clues - a small discomforting change in handling which becomes
+	more pronounced as the condition worsens, and a wobble when folding the back
+	under.  My opinion of important connections secured by Loctite (tm) if a
+	proper mechanical system is a viable option is that a design improvement is
+	desirable.  The Brompton design however has a lot of constraints which
+	mitigate against the over engineered belt & braces, and I have cut a slot in
+	the (53/61) chainrings, to allow me to get a Allen keys into the sockets
+	without dismantling the crankset every time (tip here, do this so that the
+	other side is not covered by the l/h crank!).  I have however recently
+	painted the bolts, with Hammerite (tm) paint and tightened them into the
+	paint film.  I think there might be other action to develop this further but
+	it hasn't been a pressing issue, as I can always tighten the things as
+	needed.  The trailer howver does knock 6 bells out of the rear end,
+	especially when you've got around 100Kg on the tail!
+      <LI>
+	Have you checked the suspension system.  The original one has a bolt and
+	guide which float in the rear frame, and will obviously be tight when you're
+	not sitting on the bike.  As a very heavy (120+Kg with backpack) rider I soon
+	cut the plastic face from the unit, and then proceeded to have the fixing
+	bolt saw its way down through the frame, and rub itself into a waisted, and
+	wasted shadow of its former self.  Fortuitously the hole is suitable for an
+	M8 bold which can be fixed to the rear frame, if  the suspension rubber has
+	some degree of float (as on the Birdy IIRC), and I may try some Birdy rubbers
+	as an option one of these days.
+      <LI>
+	Check also the folding stop plate, and SA componentry
+      </OL>
+    <LI>{Norman Tulloch, Nov 1998}
+      [...] my T5 has exactly the symptoms that you
+      describe and has had them for the last year or so.  Like you, I have tried
+      and failed to find the cause.  If the rattle does suggest the hub is on the
+      way out, mine seems to be taking quite a while to die and otherwise works
+      just fine.  (There's a foolishly over-confident statement!)
+    <LI>{Graham S Jones, Nov 1998}
+      Maybe it's heresay to mention another make, but hub-geared Moultons have being making rear end rattles since 1962.  From the bottom bracket back, Bromptons, Moultons and AMs are very much the same.  The rattles have something to do with the amplitude of vibration of small wheels on the road and idle hub gear internals - hence why it stops when you pedal.
+      <BR>
+      My L5 rattles, but my 1963 Moulton Deluxe (FW S-A hub) has done so since I got it 10 years ago,
+      and it's still going strong.
+    <LI>{David Edge, Dec 1998}
+      This sounds to me like a misaligned chain tensioner - the chain is perhaps
+      running with the sideplates on the jockeys. If you can get someone to hold
+      the back of the bike up while you turn the pedals it will be obvious enough.
+    </UL>
+
+  # Noise from the front
+  {Willi Mindak, Jun 99}
+      For a couple of weeks now my T5 has developed an irritating noise that repeats itself with every turn of the front wheel.
+      I suspected the wheel bearings or the cones, but when I examined them they looked o.k. to me.
+      The bearings showed no wear at all (at least I could see none), and the cones had just a small, uniform line of wear were the bearings are running.
+      This 'line of wear' is visible, but you don't feel anything when you run you finger over it.
+      Regreasing the front hub brought no improvement, neither did turning the wheel back to front.
+      The noise only appears when the bike is ridden. When the front wheel is spun without load all is quiet.
+      Can the noise be caused by uneven spoke tension? Any ideas?
+
+  #whiny_generator Silencing a whiny generator
+    {Channell Wasson, Jan 1998}
+      Try this
+      <OL>
+      <LI>A little oil around rotor
+      <LI>Check alignment of rotor to side wall
+      <LI>Super glue two o rings on rotor.  ( Be sure not to get "s/glue" on
+      rotor shaft area)
+      [or get a regular dynamo cap from any (European?) bike shop]
+      </OL>
+
+# Why is the Brompton's steering sensitive?
+  {Riddell, Toby, Jun 2000}
+    Is this anything to do with the frame geometry, in particular the trail?
+    <BR>
+    I have noticed that when pushing my Brompton along, holding it just by the
+    saddle and steering it by leaning it one way or the other, it is less
+    responsive than other bikes, that is say the amount of turn is small for a
+    given amount of lean. I think this reflects a shorter trail. And this in
+    turn is reflected in the fact that it's harder to balance the bike when
+    riding it hands free, there is less self-centering.
+    <BR>
+    Does this make sense?
+    <BR>
+    When researching folding bicycles I came across a report concerning a
+    particular model of Dahon. It had a geometry which meant that there was no
+    self-centering effect. A case came to court because someone was riding one
+    when he looked over his shoulder and took one hand off the handlebar -
+    because of the lack of self-centering he could not tell with one hand which
+    way the front wheel was pointing and it turned to 90 deg. and he was
+    deposited on the deck. So presumably this Dahon had no trail at all?
+  <UL>
+  <LI>{Jim McLaughlin, Jun 2000}
+    I'm not sure what you mean by "trail", I am guessing that is what we call
+    "caster" in the US.  Caster does affect the self steering.  I believe it is
+    defined something like this:
+    <BR>
+    Project a line down the axis of the fork to the point where it hits the
+    ground.  The tire will hit the ground usually somewhat behind this, and the
+    offset is referred to as caster.
+    <BR>
+    I'm not versed in the trade offs, though I believe the racing types prefer
+    twitchy steering (less caster?) and the masses perhaps prefer less twitchy
+    steering.  I assume the small wheels have much to do with it.  For example,
+    every recumbent I have seen has a small wheel in front and it is a given that
+    recumbents do not lend themselves to riding with no hands.
+    <BR>
+    The Brompton's short wheel base might have something to do with it but I think
+    less so.
+    <BR>
+    We need a physicist or engineer out there who can enlighten us on the
+    geometry.  But rest assured that one quickly becomes accustomed to the
+    Brompton's balance, there is no special danger.
+    Riding with no hands is never a good idea on any bike.
+  <LI>{Ka Lun Tam, Jun 2000}
+    I have experienced that too, pushing my bike by the saddle.
+    I had always assumed that part of the reason I can steer from the saddle on a
+    regular bike was because the weight of the front wheel allowed it to
+    "fall" to one side, so I can lean the bike to the left and the wheel would
+    "Fall" left, thus turning itself to the left.  With the smaller wheel
+    on the B, I had thought it just wasn't heavy enough.
+    <BR>
+    By no means a theory with any scientific basis...
+  <LI>{Wei-Yuen Tan, May 2002}
+    Self-steer and steering sensitivity are separate qualities, but both are
+    related to head-tube angle.  Steering sensitivity decreases as the head-tube
+    angle departs from vertical.  Self-steer (identical to the caster effect)
+    increases as trail increases, where trail is the distance between a) the
+    point of contact between the tire and the ground, and b) the intersection of
+    the ground with an imaginary line passing through the centre of rotation of
+    fork (i.e. a line extending from the steering column).  The amount of trail
+    is determined by the amount of fork-rake and the head-tube angle.
+    <BR>
+    To say that the Brompton's steering is due to its small wheels is indirectly
+    true but inaccurate.  Small wheels, a low headset placement and a telescopic
+    steering column allow for a compact folded-form but entail that the
+    head-tube angle must be close to vertical, hence the sensitive steering.
+  </UL>
+
+# Riding on the sidewalk - is a Brompton a children's bike?
+  <UL>
+  <LI>{Ka Lun Tam, Feb 2000}
+    Well, here in Ontario, you're allowed to ride on the sidewalk
+    so long as your wheels are under 24" in diameter, which the Brompton happens
+    to have.
+  <LI>{Peter O'Reilly, Feb 2000}
+    NYC ordinance permits you to ride on the sidewalk only if under age 14 *and*
+    the bicycle has wheels less than 26 inches in diameter.
+    <BR>
+    NYC Bicycle FAQ:
+    http://www.ci.nyc.ny.us/html/dot/html/get_around/bike/bikesafe.html
+  </UL>
+
+# Wobbles and top speed
+  <UL>
+  <LI>{Custfold, Aug 2000}
+    Wobbles occur mainly as steering geometry alters to reduce the trail - with
+    small wheels this is more rapildy changed that with large wheels.  Perhaps as
+    you go faster you put weight forward, and thus create what bikers over here
+    know as a tank slapper.
+    <BR>
+    Sitting back and transferring weight rearwards will increase the trail and a
+    wobble can be enhance or removed - especially if you have a fairly weighty
+    backpack on to make weight transfer of considerable effect.
+  </UL>

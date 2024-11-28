@@ -1,0 +1,24 @@
+<!--*-html-*--><!DOCTYPE HTML SYSTEM><HTML><HEAD><TITLE></TITLE></HEAD><BODY>
+
+<TABLE BORDER=1 CLASS="toc">
+  <TR>
+    <TH>On-line access</TH>
+    <TH COLSPAN=2>HTTP download</TH>
+  </TR><TR> 
+    <TD><A HREF="chapters/index.html">Spread over many small chapters</A></TD>
+    <TD><A HREF="BromptonFAQ_chapters.tgz">1&nbsp;MB&nbsp;text&nbsp;archive</A>
+    <BR><A HREF="BromptonFAQ_pictures.tgz">&frac34;&nbsp;MB&nbsp;pictures</A></TD></TD>
+  </TR><TR> 
+    <TD><A HREF="sections/index.html">Bundled in three sections - good for searching</A></TD>
+    <TD COLSPAN=2></TD>
+  </TR><TR> 
+    <TD>Proprietary archive to be used with
+        <A HREF="http://www.isilo.com">iSilo</A> on 
+	Palm OS, Pocket PC or Windows CE Handheld PC</TD>
+    <TD COLSPAN=2><A HREF="BromptonFAQ.pdb">1&nbsp;MB&nbsp;pdb</A></TD>
+  </TR>
+</TABLE>
+<P>
+The .tgz archives are to be unpacked with <CODE>gzip</CODE>
+and <CODE>tar</CODE>.
+Fellow victims of Micro$oft Windows can easily do this with <A HREF="http://free-backup-software.net/">JustZIPit</A>, <A HREF="http://www.rarsoft.com/">WinRar</A>, <A HREF="http://www.winzip.com/">WinZip</A>, <A HREF="http://www.ghisler.com/">Total Commander</A>, and many other free- and sharewares...

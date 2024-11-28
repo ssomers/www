@@ -1,0 +1,677 @@
+<!DOCTYPE public "-//w3c//dtd html 4.01 transitional//en" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML><HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META HTTP-EQUIV="Content-Language" CONTENT="en-GB">
+<META NAME="GENERATOR" CONTENT="src2html">
+<META NAME="DATE" CONTENT="2002-08-09">
+<META NAME="AUTHOR" CONTENT="Stein Somers">
+<LINK HREF="../style.css" REL="stylesheet" TYPE="text/css">
+<LINK HREF="../index.html" REL="contents">
+<TITLE>Bicycle computers, mirrors...</TITLE></HEAD>
+<BODY><TABLE CLASS="banner" ALIGN="right"><TR>
+<TD>Page last changed August  9, 2002</TD>
+<TD><A REL="prev" TITLE="To Previous Chapter" HREF="Trailers.html"><IMG SRC="../pictures/prev.gif" WIDTH=23 HEIGHT=16></A>
+<TD><A REL="index" TITLE="To Index" HREF="index.html"><IMG SRC="../pictures/index.gif" WIDTH=16 HEIGHT=16></A>
+<TD><A REL="next" TITLE="To Next Chapter" HREF="OnTheRoad.html"><IMG SRC="../pictures/next.gif" WIDTH=23 HEIGHT=16></A>
+</TD></TR></TABLE>
+<H1>Bicycle computers, mirrors...</H1>
+<TABLE CLASS="toc" ALIGN="center" WIDTH="95%">
+<TR><TH ALIGN="left">Contents:<TR><TD>
+<UL>
+  <LI><A HREF="#135">Bicycle computers on a Brompton</A>
+<UL>
+    <LI><A HREF="#136">Bicycle computer technology</A>
+</UL>
+  <LI><A HREF="#137">Wireless bicycle computer on a Brompton</A>
+<UL>
+    <LI><A HREF="#138">Wireless bicycle computer installation</A>
+</UL>
+  <LI><A HREF="#139">Bottle cage</A>
+  <LI><A HREF="#140">Horns</A>
+<UL>
+    <LI><A HREF="#141">Air Zound 2</A>
+</UL>
+  <LI><A HREF="#142">Dog deterrents</A>
+  <LI><A HREF="#143">Mirrors</A>
+</UL>
+</TABLE>
+
+See also:
+<UL>
+<LI><A CLASS="quick" HREF="OnTheRoad.html#MiniPump">Quick repairs on the roadside - Mini pump</A>
+</UL>
+
+<H2><A NAME="135"></A>Bicycle computers on a Brompton</H2>
+<UL>
+<LI><EM CLASS="from">Nico J. de Boer, Nov 1998:</EM><BR>
+I use a Cat Eye type
+"velo 2", on which I could enter the 130cm (...inches?) of the tyre
+circumference. BUT: I had to solder a new piece of cable between the
+computer and the sensor. I've strapped it to the set of cables that's
+running from the handlebars to the rear triangle anyway, and mounted
+the sensor on the horizontal part of the rear triangle, inside when
+folded. It has been running without problem for 1458.0 kilometers since
+then. Be careful to mount it "tilting forward" on the handlebars,
+because if you don't, the button to change functions on the computer
+(used for zeroing your trip total) will be the most outside point of
+the folded package, causing the computer to zero at unwanted times
+(eg. between chairs in trains). I hope you don't consider this
+"jerrymandering"? Apart from the soldering, mounting was no problem
+at all.
+<LI><EM CLASS="from">Richard Lighton, Nov 1998:</EM><BR>
+I fitted an Avocet 15 to Arnold with only the minor problem of
+having to change the position of the detector attached to the fork
+because the first attempt interfered with the folding. It was
+just another of those things that led me to curse, then admire
+the ingenuity of the folding design. The battery powered light
+has so far defeated me. That has to come off before folding.
+(Another 10 seconds)
+<LI><EM CLASS="from">Peter Holden, Nov 1998:</EM><BR>
+I have an Avocet 15.  Works great.  No problem.  Just took time and care to
+route the cable off the front tire, giving care where it bends.
+The 16" wheel:  well, I've got mine set for 1285 (for miles); but you can set
+yours simply bymeasuring the rolling circumference--roll the wheel a few times
+with a load on it, then divide inches into miles or whatever the calculation
+is. (its late, can't think) there are instructions in the packet.
+the Avocet 15 is simple and gives me distance and speed on the same screen
+(not all do)
+<LI><EM CLASS="from">Bob Goldstein, Jan 2000:</EM><BR>
+I have mounted the Cateye Enduro 2 such that the folding and neatness of
+cables is just fine on my Bromptons (mine and my wife's).  Can't say that
+it's the best computer, because it's the only one I've ever had and it
+has a maddening user interface.  But that may be true of all of them.  It
+does time of day, speed, distance, average speed over a trip, whether
+you're going over or under your average speed, etc etc etc.
+<BR>
+I had to replace one signal sending cable because I bent it too sharply
+and tightened the plastic tie-down too much.
+</UL>
+
+<H3><A NAME="136"></A>Bicycle computer technology</H3>
+Harris Cyclery recommends that the magnet mounted on the front wheel spokes
+be placed as close to the hub as possible, is this right?
+<UL>
+<LI><EM CLASS="from">Stein Somers, Jul 1999:</EM><BR>
+Yes, there the (linear, not angular) velocity of the magnet is smallest,
+so the sensor has more time to notice it passing by.  The sensor is not
+a coil measuring a magnetic pulse.  At least the sensors I've openened
+were Reed relays, small vaccum glass containers containing two tiny
+metal plates that attract eachother while in the magnet's field, thus
+establishing an electric contact monitored by the main unit.
+<LI><EM CLASS="from">John Blackburn, Jul 1999:</EM><BR>
+Reed relays can suffer from "contact bounce", which may lead to a double
+pulse, giving twice the correct reading. But this is rare and could only
+happen if the magnet is weak, or too far away, or the various fixing
+screws haven't been tightened up properly.
+<BR>
+A cycle computer is usually a 4-bit microcontroller with built-in LCD
+(liquid crystal display) driver, running from 3 volts (2 watch cells or
+1 lithium) or 1.5 volts (1 cell, with voltage doulber for the LCD).
+<BR>
+One of its input pins is connected to the supply rail (eg +3 volts line)
+via a high resistor (typically 3.3 megohms). The reed relay is connected
+from this input pin to ground; when the relay closes the voltage on the
+pin falls from +3 volts to zero. This change is detected, "debounced"
+(rejecting multiple contact closures), and used by the built-in software
+to calculate speed etc.
+<BR>
+A reed relay is used because it removes the need for an on-off switch.
+The computer is always running (using a tiny current), and thus can
+always detect if the reed contact closes, but the LCD is switched off
+after a few minutes of inactivity to conserve the battery.
+<BR>
+If you leave the bike in such a position that the reed-relay is next to
+the magnet, there is an extra battery drain because a small current
+flows through the 3.3 megohm resistor.
+<BR>
+Example (measurement made by me, on a real cycle computer using a
+Lithium battery):
+Bike parked with reed-relay not near magnet: battery life estimated as 5
+years.
+Bike parked with reed-relay next to  magnet: battery life estimated as 3
+years.
+<BR>
+In other words, it isn't very important, on this particular computer at
+least.
+<LI><EM CLASS="from">Frank Abbing, Jul 1999:</EM><BR>
+I once installed a magnet without my glasses on, that is at a 90 degree
+angle from what it should be. This gave me a very stable double reading....
+</UL>
+
+
+<H2><A NAME="137"></A>Wireless bicycle computer on a Brompton</H2>
+<EM CLASS="from">Dave Horne, Aug 1997:</EM><BR>
+Who makes a wireless that can work with 16" wheels?
+<UL>
+<LI><EM CLASS="from">Leonard Rubin, Aug 97:</EM><BR>
+I have had good luck with the Sigma Sport BC 700. There are others as well,
+and often, although the literature (table or chart) that comes with a unit
+may only show figures down to 20", you find that you can, in fact, type in
+a smaller rollout number yourself.
+<LI><EM CLASS="from">Norman Tulloch, Aug 1997:</EM><BR>
+The Cateye Cordless 2 works fine, though the transmitter unit  isn't
+altogether an ideal fit onto the Brompton's small front fork and I did have
+some initial difficulty with getting it properly mounted.
+<UL>
+<LI><EM CLASS="from">Willi Mindak, Oct 97:</EM><BR>
+[Cateye Cordless 2] does not work properly on the Brompton.
+In the instructions that
+came with the unit a max. distance of 45 cm between sensor and main unit
+is given. Because of the Brompton's small wheels and long stem the
+closest you can get is about 55 to 60 cm (with the main unit mounted on
+the handlebar). For the cateye this distance is too long, and at best it
+works intermittently.
+<BR>
+If the main unit is held a couple of inches closer to the transmitter,
+everything works fine, but I feel that the only sensible location for
+the main unit is on the handlebar in direct view of the rider.
+<LI><EM CLASS="from">Norman Tulloch, Oct 1997:</EM><BR>
+Initially, I fitted the sensor unit on the front fork where its shape
+seemed to fit the curve of the front fork best  -  that is, below the
+mudguard stay.  The computer didn't work consistently and gave unreliable
+readings.
+<BR>
+However, I then tried fitting it  above the mudguard stay and (somewhat to
+my surprise) it worked just fine and has continued to do so.  The sensor
+isn't the neatest fit in the world onto the front fork in this position,
+and I used some black insulating tape (which doesn't look too horrible on
+my black Brompton) to make it more secure.  Though I wasn't too confident
+about this arrangement, it has given me no problems over 425 miles,
+including quite a few rough roads.
+<BR>
+I should perhaps also have said that I have the computer itself mounted on
+the lowest part of the handlebars, beside where they clamp onto the stem
+<BR>
+[...] on the Brompton the
+distance between front fork and the lowest part of the handlebars is much
+greater than on conventional bikes.  The Cateye instruction manual states,
+"The distance between the sensor and the main unit must be kept within
+45cm."  However, on the Brompton the best I can manage is about 55cms.
+<LI><EM CLASS="from">Nov 1997:</EM><BR>
+[..] curiously enough it is now giving inconsistent
+readings or none at all.  I tried replacing the batteries but this made no
+difference.
+<BR>
+I strongly suspect that the problem is caused by the colder weather which
+has now arrived.  Temperatures here in south-west Scotland are now around 45
+degrees Fahrenheit during the day and it may be that this sort of
+temperature is low enough to prevent the lithium batteries from working at
+full efficiency.  Since it is not possible to obtain ideal positions for
+mounting computer and transmitter units on the Brompton (because of the
+distance between the front fork and handlebars), I guess that the units need
+to be working at their best, and it may be that in winter temperatures this
+does not occur.
+<BR>
+I have tried removing the computer from its mounting bracket on the
+handlebars and holding it a few inches closer to the transmitter unit on the
+front fork.  This seemed to cure the problem.  I think I shall have to adopt
+Channell Wasson's solution of mounting the computer on the Brompton's frame
+instead of on the handlebars -- at least until the warmer weather returns!
+<UL>
+<LI><EM CLASS="from">John Blackburn, Nov 1997:</EM><BR>
+LITH.LST 11 November 1997
+<BLOCKQUOTE>
+Lithium cells operate over a wide temperature range. Data sheets from
+the main manufacturers (Sanyo, Saft, Varta and others) show that even
+at -20 &deg;C, cells still have more than 60% of their room-temperature
+capacity. Cell voltage is nominally 3 volts per cell, falling to 2.5
+volts below -20 &deg;C. Capacity loss is as low as 1% per year in most
+cells. At low temperatures, it is even better.
+<P>
+The very high cell voltage (at least 3 volts, and 3.6 volts in some
+types) means that only one cell is needed in order to construct a
+calculator (or bicycle computer) with LCD display. If a cycle computer
+contains 2 cells, they are more likely to be silver-oxide cells, as used
+in watches.
+</BLOCKQUOTE>
+I doubt if any cell or battery has a poor performance at 45 &deg;F as
+claimed.
+</UL>
+[...]
+The attraction of the wireless
+computer, as far as I was concerned, was that I felt the wire of a wired one
+might get in the way when the bike was being folded, or that it would become
+snagged or broken.  The wireless computer also looks just a bit neater, too.
+However, it may well be that the wireless computer is more bother than it's
+worth.
+<LI><EM CLASS="from">Willi Mindak, Oct 97:</EM><BR>
+I've tried to mount the sensor unit as close to the main unit as
+possible, that is above the mudguard stay on the right forkleg, and I
+also tried the left forkleg (with the unit 'reversed' (in front of the
+fork. The receiver was mounted as low as possible, next to the habdlebar
+clamp. I got it working 'in the lab', but when out on the road I noticed
+that the little blinking indicator was not pulsing at the same frequency
+when at constant speed, so this arrangement did not work very well.
+<BR>
+If it works for you I'm going to try a new battery on the sensor (even
+though the unit is brand new the battery may have suffered from long
+storage.
+</UL>
+<LI><EM CLASS="from">Norman Tulloch, Aug 1997:</EM><BR>
+[...]
+The Sigma range (which has an optional wireless transmitter unit) also
+works on 16" wheels.  However, cable ties are used for mounting both the
+computer (to the handlebars) and the transmitter (to the front fork).  I
+feel this is a fairly crude method of fixing which makes it difficult to
+get the units securely attached.  The Sigma also looks a bit cheap, whereas
+the Cateye is generally of better quality.
+<LI><EM CLASS="from">David Cox, Nov 1997:</EM><BR>
+Sigma wireless computers work up to 70cms.
+<LI><EM CLASS="from">Frank Abbing, Jun 1998:</EM><BR>
+... the [Sigma 300 cycle computer's] cable IS long enough.
+I installed the pickup device on the left leg of the front fork,
+taped the cable to the front lamp cable up to the point where it does a V-turn.
+From there I taped the computer cable to the rear brake cable.
+I could pass the cable through the factory
+installed cable guides by disassembling the slider contacts (undo two
+extremely small screws). After the installation there is almost no slack
+cable left, the bike folds and unfolds as it used to do. The Sigma 300 is
+rather simple, with large figures. Good, because it is farther away than
+usual, on the lower part of the handlebar. The computer protrudes about a
+centimeter from the folded bike. Because it is mounted by a simple rubber
+ring it just moves to a safe position if you hit something when carrying the
+bike.
+<LI><EM CLASS="from">Willi Mindak, May 99:</EM><BR>
+I returned three different computers, until I happened to stumble across the Sigma.
+The range of the Sigma's wireless unit  is about 90 cm, so you can fit it almost anywhere on the handlebar.
+You can use any computer from the Sigma range, because they sell the transmitter/ receiver for wireless operating seperately.
+You can use the normal 'wired' sensor on your second bike.
+<LI><EM CLASS="from">David Cox, May 1999:</EM><BR>
+I've used wired computers on my Brompton with no particular problems
+although I am now on my 3rd. Ist was old when fitted but second one only
+lasted about 2 years.
+<BR>
+On a Bike Friday I have a wireless Sigma which is fine except when I pass
+the big BBC Transmitter at Wychbold near Bromsgrove in Worcestershire
+(Archer country for those who follow that radio soap !) The effect was to
+momentarily halve the indicated speed and then cut out the reading. I did
+some fiddling with the connections and magnet to no avail then less than a
+mile later it reverted back to normal.
+<LI><EM CLASS="from">Mike Hessey, May 1999:</EM><BR>
+Computers in general are discussed on the Bike Friday User Group UK web
+page and Birdy page, accessible from the Folding Society web pages at
+<A HREF="http://www.whooper.demon.co.uk/foldsoc">http://www.whooper.demon.co.uk/foldsoc</A>
+<BR>
+I found the Sigma the only wireless one which I tried that was satisfactory
+with small wheelers. Problem is that I have to take it off when boarding
+local electric trains, as it starts reading vast distances while the bike
+is on the train.
+<LI><EM CLASS="from">Channell Wasson, Jul 1999:</EM><BR>
+I use a cordless Cateye with sender mounted on right side near fork crown
+and receiving/dispay unit mounted on main frame just behind main frame
+hinge. Seems to work flawlessly.  Receiver mounted on handlebar was giving
+intermittant readings, especially over 18mph.
+<LI><EM CLASS="from">Bob Gelman, Jul 1999:</EM><BR>
+I've been using a Wireless Heart Rate Monitor on rides for a while
+now.  I note quite a bit of interference from electric wires strung on
+poles.  I've heard lots of stories of electrical interference of various
+sorts regarding speedometers too.  I think this may be the main
+consideration.
+<LI><EM CLASS="from">Marv Gozum, Jul 1999:</EM><BR>
+After playing with [a TREK Wireless cycling Computer] for almost 5 hours, I got
+the same thing interference issues.  Its not highly reliable, the cheapo
+reed switch versions are better, despite wire routing.
+</UL>
+
+<H3><A NAME="138"></A>Wireless bicycle computer installation</H3>
+<EM CLASS="from">David Cox, Aug 1997:</EM><BR>
+At the risk of sounding really thick, does a front pannier full of stuff
+inhibit a wireless computer ? It is 35 years since I did O level physics and
+the empirical test would be a bit expensive.
+<UL>
+<LI><EM CLASS="from">Norman Tulloch, Aug 1997:</EM><BR>
+Don't ask me about the physics of the matter, but in my experience a loaded
+front pannier makes no difference to a wireless computer.
+<LI><EM CLASS="from">Leonard Rubin, Aug 97:</EM><BR>
+If the elements used infared transmission to communicate (they don't) then
+line-of-sight would be crucial; as I infer that they use RF (radio
+frequency) communications, the only issue would be signal strength, which
+must be, admittedly, very weak, given the minute size, batteries and price!
+Ergo, I can  offer an educated guess (as I no longer (very temporarily)
+have a Brompton to experiment with).
+<BR>
+My guess is that it should still work under most imaginable circumstances,
+as most of the mass of the bag/cargo is in front of the line-of-sight,
+where the signal would be most reliable. I believe I recall using both bag
+& computer on a few trips and having it work fine, but I may be inventing
+again! ;-)
+<LI><EM CLASS="from">Channell Wasson, Oct 1997:</EM><BR>
+Yes the handlebars are too far away for the wireless speedometers
+to bick up a signal from the transmitter on the front fork.  I have
+tried several diferent speedos and found this always to be the case.  My
+solution has been to mount the speedometer on the main frame just behind
+the folding hinge. The unit I like best is the Cat-Eye. I modified the
+mounting bracket and made two holes to accept a plastic zip tie to
+attach the speedo mounting clip to the frame.  Problem of transmission
+thus eliminated.
+</UL>
+
+<H2><A NAME="139"></A>Bottle cage</H2>
+<EM CLASS="from">Doug Faunt:</EM><BR>
+Any suggestions for mounting a bottle cage?  I'm thinking about trying
+to positions one on the steering post, so it'll still fold.
+<UL>
+<LI><EM CLASS="from">Graham Patterson:</EM><BR>
+Try the 4 or 5 o'clock position (looking down from the riding
+position).  That's where I have my Blackburn mini-pump.
+<LI><EM CLASS="from">Steven M. Scharf, Apr 1998:</EM><BR>
+I found that the Ibis Hot Unit
+bracket mounts nicely on the handlebar and doesn't get
+in the way of folding (when you remove the bottle).
+<BR>
+The Hot Unit is a 'silver bullet' stainless steel vacuum bottle
+with a die cut steel bracket that holds the vacuum bottle (or a standard
+water bottle) into place with a bungee like cord.
+<BR>
+I attached it with 5 cable ties, but as it has holes for a
+water bottle mounting holes, I'm wondering about the
+wisdom of drilling and tapping two holes in the post.
+<BR>
+<A HREF="http://www.ibisbicycles.com">http://www.ibisbicycles.com</A> (though the link wasn't working
+this morning).
+<UL>
+<LI><EM CLASS="from">Doug Faunt, Apr 1998:</EM><BR>
+Unfortunately, Steve's setup would conflict with the front pannier
+while steering, if you have one mounted.
+</UL>
+<LI><EM CLASS="from">Tom Vogt, Apr 1998:</EM><BR>
+A company called Twofish Unlimited in
+Berkeley California manufactures a strap-on cage
+(<A HREF="http://www.lickbike.com/i3251050.htm">http://www.lickbike.com/i3251050.htm</A>) that works very nicely! A soft rubber
+block and velco straps keep it securely in place (US$8.95). I attached it to
+the top of the frame tube and it does not impede folding.
+<LI><EM CLASS="from">Velovot, Feb 2000:</EM><BR>
+I found a Twofish Technology in Alameda, California (39 Ross Road). You can
+reach them at 510-865-2330. I'm not sure it's the same company.
+<LI><EM CLASS="from">Bob Gelman, Feb 2000:</EM><BR>
+Both  coloradocyclist.com  and  bikenashbar.com   sell them mailorder
+($12), which includes a bottle.  I've got mine on the front of my
+steering post on my Birdy, facing forward, where it doesn't interfere
+with folding and is easy to reach.  I have seen them on the top tube
+(horizontal) on Bromptons and am told they don't leak in that position.
+They really go just about anywhere (the velcro fastener is very strong).
+A cheaper solution (at least for the Birdy) is an automotive "hose
+clamp" on the steering post to hold a conventional cage.
+<LI><EM CLASS="from">Jim McLaughlin, Feb 2000:</EM><BR>
+Mine is on the handle bar stem closest to me.  Folds without removal.  I left
+it on when I converted to recumbent too.  I put the adhesive backed sandpaper
+that Two Fish supplies on the stem under the rubber cage mount and it does
+reduce movement.  But I placed it so that the stud that clips the stem to the
+fork when folded also prevents the bottle cage from sliding down.
+<LI><EM CLASS="from">David Cox, Apr 1998:</EM><BR>
+I usually keep a water bottle in the neat little bag that came with the
+Brompton soft bag. For longer rides in Italy I fitted a bottle carrier
+behind the saddle (Selle Turbo saddle and carrier from St Johns Street
+Cycles in Bridgewater Somerset UK) They do a single and double carrier in
+high quality plastic which fits the rails with allen key fixing. Chris
+Boardman uses something similar for time trials for aerodynamic reasons !
+Doesnt affect casual folding but sticks out.
+</UL>
+
+<H2><A NAME="140"></A>Horns</H2>
+<EM CLASS="from">Clive Page, Dec 1997:</EM><BR>
+Does anyone have a suggestion for what the law calls "audible warning of
+approach" (around these parts).  Ideally it should be loud enough to
+penetrate the cab of a 40 ton truck (or a sports car where the in-car
+entertainment system is going "thumpa-thumpa-thump" at full blast) when
+they are still over a hundred metres away.
+<BR>
+For a time I had an old style hooter with a rubber bulb, but it was hard
+to mount it so it was easy to use without fouling the folding of the
+handlebars and eventually the reed got corroded and lost its voice.
+<BR>
+More recently I got a battery-operated device called the "Megahorn" which
+emits a high-pitched shriek (not unlike the warning noise from a reversing
+bus or truck). It's almost deafening when used indoors, but outside it
+doesn't even bother some pedestrians as they step off the kerb without
+looking just a short way in front of me.  And recently I've found several
+cases in which I was in danger from motor traffic where the driver didn't
+notice I was there.  So obviously I need something louder.
+<BR>
+A horn for a motor-cycle might be loud enough, but I'm not sure where one
+could be fitted while keeping the bike foldable (and I don't know how much
+power they take). I'm not too worried about weight, as I try not to carry
+my bike folded more than short distances.
+
+<UL>
+<LI><EM CLASS="from">David Cox, Dec 1997:</EM><BR>
+I've seen people use aerosol powered airhorns fitted in bottle cages. They
+are from chandlers shops and used for fog warning in small boats. Behind
+the saddle would fit.
+<BR>
+I use a bell for pedestrians and a very loud Oi for anything else. If
+you've got time to press/squeeze something its not a real emergency
+<LI><EM CLASS="from">Custfold, Dec 1997:</EM><BR>
+A marine fog horn - operated by compressed gas, is similar in volume & note to
+that used on large trucks (around lower A or B flat).  I believe a version
+with pump up reservoir is available.
+<BR>
+Alternatively get a Xenon light (Vistalite) with a clear lens and touch fire
+switch for that critical 2 flash burst - Guaranteed to make a motorist slow
+right down to at least the legal speed limit.
+<BR>
+Further alternative is to use a sounder unit which produces a distinctive
+2-tone sequence - which our legal eagles can let us know whether its use on a
+BIKE is in same classification as its use on a car (which is illegal).  A
+drivers hearing is improved by this even at low volumes, just as their sight
+is improved drastically by introduction of a bright daglo stripe on your
+vehicle - especially if you fit a white fairing :-))
+<LI><EM CLASS="from">Bob Gelman, Nov 1999:</EM><BR>
+Thirty-five years ago, give or take, I used an aerosol boat horn to take a
+somewhat aggressive stand in the jolly streets of New York City.  This was a
+thing that looked like a shaving cream aerosol can (same size too) with a horn
+on top (you replaced the canister when it was empty).  Quite effective for
+dogs, trucks, cabbies, etc.  It fit in a bottle cage.  It was probably louder
+than the Zounds.
+<BR>
+I frequently found that getting off the bike and putting it between you and
+the dog was effective (you kind of move the bike around as if you had a cape
+and were a Matador).
+<BR>
+My most interesting animal confrontation was in the Canadian Rockies, near
+Jasper, on the fantastic Banff-Jasper run; it was with a bear.  I removed a
+sandwich from my handlebar bag and threw it some distance opposite to where I
+intended to head. When the bear "attacked" the sandwich I hauled tail pronto!
+<LI><EM CLASS="from">Derek. J Baker, Jun 2000:</EM><BR>
+I am using a simple cheap (under &pound;5 u.k. pounds) personal attack alarm as a
+bike alarm on my brompton. the alarm is black and about the size of a
+cigarette packet  with laynyard and pin. since it is intended for it to be
+worn on the body it comes complete with belt clip. with the brompton in the
+parking mode that is with the rear wheel tucked under it is quite simple and
+quick to attach the lanyard to the wheel and the alarm below the saddle. try
+moving the bike by lefting the saddle and out comes the pin followed by
+quite an ear shattering alarm. all this for under a fiver. anyone out there
+thinking of alarming their bike should try this device.
+</UL>
+
+<H3><A NAME="141"></A>Air Zound 2</H3>
+<UL>
+<LI><EM CLASS="from">Zach Kaplan, Dec 1997:</EM><BR>
+How about an Air Zound 2 pneumatic horn. These are about as loud as a car
+horn, have a volume control, are lightweight, and the plastic bottle is
+easily recharged with a bicycle pump.
+<LI><EM CLASS="from">Leonard Rubin, Dec 97:</EM><BR>
+I've found just the item: Air Zound 2 by Samui Corp. in Canada (tel:
+1-416-425-2583). It is ridiculously loud, absurdly light, and very cleverly
+designed! It can be installed/removed in a few seconds, uses a "pressure
+vessel" (common soda bottle) that can be quickly and easily recharged with
+any bike pump capable of 100psi (frequency of recharge depends, of course,
+on usage). It even has a volume adjustment knob, for when you merely want
+to politely signal a pedestrian of your approach, (as oposed to causing
+them a heart attack!)
+<LI><EM CLASS="from">Mark West, Dec 1997:</EM><BR>
+I remember when I was a lad, about 30 years ago, we had a craze for
+collecting bike bells, horns etc. I expect it was something to do with our
+big brothers all having fancy mirror encrusted motor scooters.
+Anyway, I recall a friend of mine, wealthier than I, bought and fitted a
+starters' AIR HORN into a bar mounted bottle cage. It was LETHAL, Even
+better, it was DIRECTIONAL and just about at car window height. I well
+remember him sounding off at left turning road hogs and making them swerve
+across the road. Trouble was they were all self righteous "responsible"
+motorists entitled by divine right to drive over schoolboys in the nearside
+lane and would usually stop to tell us off for our reckless behaviour
+(trying to save our own lives was considered reckless in the extreme)
+Eventually one of our own teachers confiscated it following a complaint
+from the old biddy next to the school who would regularly drive out into
+the flow of children without pausing to look.
+<BR>
+Point is it worked. The trouble we got into was because it worked. They
+couldn't ignore us so they persecuted us so beware of reprisals if you try
+it.
+<LI><EM CLASS="from">Tom Vogt, Dec 1997:</EM><BR>
+Ah, now here's a suggestion for a LOUD horn.
+AirZound 2 is a rechargable air horn.
+It has a variable volume and, at its loudest, can be heard within any
+vehicle.
+I'm not sure how it will be distributed in the U.K. Drop an e-mail to
+Andrew at BICYCLENUT@AOL.COM. He should be able to direct you to the right
+place. I've been using an AirZound 2 for a few months and LOVE it!
+<LI><EM CLASS="from">Jfreewheel, Dec 1997:</EM><BR>
+Try the airzound 2.  Its an airhorn system.  You pump compressed air in a
+water bottle sized plastic canister using your pump.  Good for about 50
+blasts.
+Will wake up your soul when you here it.  Volume is adjustable too.
+I use one for commuting and you sound bigger than actually is.
+<BR>
+I think we still have a picture under the Closeouts section of the site.
+<TABLE BORDER=1><TR>
+<TD>J Gaerlan - Gaerlan Custom Cycles
+<BR>"framebuilding supplies for the homebuilder"
+<BR>(415)362-3866: (415)677-8943 fax
+<BR>JFreewheel@aol.com
+<BR><A HREF="http://members.aol.com/Buildhpv/bike.html">http://members.aol.com/Buildhpv/bike.html</A>
+</TABLE>
+<LI><EM CLASS="from">Stein Somers, Aug 2000:</EM><BR>
+<IMG ALIGN="right" HSPACE=5 VSPACE=3 SRC="../pictures/AirZoundVessel.jpg">
+The air vessel of my AirZound 2 is fixed on top of the main tube, in
+front of the saddle when folded, so not in the way.  The horn is
+obviously on the handlebars and doesn't project from the folded package,
+although the air switch does form a local peak.  This results in the
+slight problem of blasting awake other passengers when the air switch
+touches its environment in unforeseen ways.
+<BR>
+They are definitely loud and keeap pressure like tires do.  I'm not too
+happy with the air switch, it's not optimized to be blown in an
+emergency situation, but I managed to fit it so that I can fire away
+while applying the brakes.
+More precisely, the plastic gizmo that you fix to the handlebars, where
+the AirZound clicks into, broke, together with the volume control.
+So I hooked the AirZound directly around the end of the bracing bar
+and tied it up with a few loop of metal wire.
+The volume is hard to adjust, so it's always at its hardest.
+I've only used in a few times; on one occasion the offending motorists
+didn't seem to notice.  Its main use is to make the rider feel confident
+and to impress the crowd gathered around the folder.
+<BR CLEAR="all">
+<IMG ALIGN="left" HSPACE=5 VSPACE=3 SRC="../pictures/AirZoundFront.jpg">
+<IMG HSPACE=5 VSPACE=3 SRC="../pictures/AirZoundRear.jpg">
+<LI><EM CLASS="from">Velovot, Oct 1998:</EM><BR>
+Gotta put my nose in on this one....
+<BR>
+YES! THE AIR ZOUND WORKS LIKE THIS TEXT READS--LOUD!!
+<BR>
+The beauty is that by using the control valve one can dial in an almost
+pleasant toot. But, if you need to be heard this thing can damage ear drums.
+People think it's a truck. I think I've induced two or three heart attacks in
+the S.F. Bay Area.
+<LI><EM CLASS="from">a2bmagazine, Oct 98:</EM><BR>
+They are very good indeed. We fitted one to a Brompton - just - without
+impeding folding, but I think we'll transfer the whole outfit to a front
+pannier.
+<LI><EM CLASS="from">Bob Gelman, Oct 1998:</EM><BR>
+"Freon" Boat horns are louder than AirZounds.  They look like a shaving
+cream can with a horn on top.  Fit right in water bottle cage.  I used
+one in manhattan in the 50s.  You don't use it very often.  Has the
+added advantage that you can take it out of holder and stick it right in
+the window of the offending car that has almost killed you.  More
+effective than kicking doors or hoods (bonnets).  Still, any of these
+activities may, these days of road rage, lead to bicyclecide.  I
+personally like to just smile at offenders; totally disarming.
+<LI><EM CLASS="from">Clive Page, Oct 1998:</EM><BR>
+Picture and details on this useful bicycle web site:
+<A HREF="http://www.edinburgh-bicycle.co.uk/catalogue/detail.cfm">http://www.edinburgh-bicycle.co.uk/catalogue/detail.cfm</A>?ID=1329
+<BR>
+(Disclaimer - I have not (yet) used their services.)
+<LI><EM CLASS="from">PHolden960, Nov 1999:</EM><BR>
+Mounted one a few months ago, and recently made it permeant.  The horn itself
+is on my left-hand-side of the handlebar; the "bottle" is mounted on the
+frame, on the left side, behind the joint.  I've just let the line run free
+from here to there.  It is not a problem with folding; although I do have to
+be careful carrying, as its possible to knock into the "bottle" with my leg.
+( maybe I should jsut swap out that folding pedal, then everything would be
+OK).
+</UL>
+
+
+<H2><A NAME="142"></A>Dog deterrents</H2>
+<UL>
+<LI><EM CLASS="from">Jim McLaughlin, Nov 1999:</EM><BR>
+I usually carry an ultrasonic "Dazer" which will keep most dogs a good distance away
+if you aim it well.  I've seen some dogs jump and turn 180 degrees and others ignore
+it.  My other device is a can of serious pepper spray, not the weak stuff they sell
+in most bike shops in the US, although the same handle bar mount works.  The spray
+is OK at close distances if the wind is in your favor, but be careful.  I prefer the
+kind with an Ultra Violet dye which shows up under "black light".  Dogs usually
+leave you alone the second time if you get it in their eyes but they are angrier, so
+who is to say what is best?  The ultrasonic "Dazer" is better in wind and cold but
+rain will wreck it for weeks.  If it is cold, keep the spray in a pocket to warm it
+or it loses pressure.
+<BR>
+Actually the air horn (meant for cars) works somewhat on dogs and usually alerts
+their Humans, at least in the country.  I haven't figured out how to mount a "Zound"
+brand air horn on Brompton.  They have trouble in the cold too unless you keep the
+pressure down.
+<BR>
+The best results I have had on regular routes is to call the animal control office,
+and they give me the phone number of the dogs owners after they issue a citation.
+Then if I still have trouble, I call the owners before I ride by the next time.
+Actually my female riding buddy called them on the cell phone last time and I
+haven't seen the dogs loose since.  Hate to see a pretty girl get bitten I guess.
+</UL>
+
+<H2><A NAME="143"></A>Mirrors</H2>
+<UL>
+<LI><EM CLASS="from">Frank Tompson, Jan 1998:</EM><BR>
+I recommend the Zefal bar end mirror. Just bought and fitted one. Easy
+to fit and folds in on itself when folding the bike. Can be purchased
+from (larger?) Halfords in UK.
+<LI><EM CLASS="from">Stein Somers, Feb 1998:</EM><BR>
+Better late than never: I also bought one, mainly - I admit - because it
+was so cheap. I soon realised it was cheap because it was a right side
+model, less usefull on the continent. Turned out left side wouldn't have
+been usefull either because it would scrape the ground on a folded B.
+<LI><EM CLASS="from">Daniel Meyerowitz, Nov 1998:</EM><BR>
+Having tried several, I found the best mirror for the Brompton to be the
+Rhode Gear Multi Mirror (made by the ubiquitous Bell Sports). It has two
+hinge points, so it can fold completely out of the way when the bike is
+collapsed (it tucks between the two bicycle wheels when the Brompton is
+folded). It is much more durable than other folding mirrors, and has a
+larger, oval-shaped viewing area. It's a natural, flat glass mirror and
+doesn't distort the objects reflected in it. The mirror is vibration
+resistent, adjustable to almost any viewing angle, and reasonably
+lightweight. I've had absolutely no trouble with mine after a year of daily
+riding, touring, taking the Brompton on planes and trains, etc.
+<BR>
+Cycling in the States, where a mirror is placed on the left side of the
+handlebars, I made one small adjustment to my mirror. The mirror plugs into
+the left end of the handlebar, and is tightened in place with a bar-end
+knob. That knob can scrape against the ground when the bike is folded, so
+it's best just to remove it altogether and replace it with a 5mm nut. The
+bolt that the nut threads onto can be replaced with a shorter one, or the
+original can be sawed off to a shorter length. In either case, this is all
+accomplished in a few minutes.
+<BR>
+Once the mirror is attached, the tightening knob is unneccessary, since the
+mirror stays on the handlebars all the time. And if for some reason you
+need to remove the mirror, you simply unscrew the 5 mm nut.
+<BR>
+I think a mirror (360 vision, anticipating approaching vehicles, seeing a
+dog bounding towards you) is as essential to safe riding as a helmet. In my
+experience, the Multi Mirror is an elegant, inexpensive, and practical
+solution for the Brompton.
+</UL>
+<TABLE CLASS="banner" ALIGN="right"><TR>
+</TD><TD><A HREF="https://steinsomers.be/brompton-talk">The Brompton Folding Bicycle FAQ</A></TD><TD><A REL="prev" TITLE="To Previous Chapter" HREF="Trailers.html"><IMG SRC="../pictures/prev.gif" WIDTH=23 HEIGHT=16></A>
+<TD><A REL="index" TITLE="To Index" HREF="index.html"><IMG SRC="../pictures/index.gif" WIDTH=16 HEIGHT=16></A>
+<TD><A REL="next" TITLE="To Next Chapter" HREF="OnTheRoad.html"><IMG SRC="../pictures/next.gif" WIDTH=23 HEIGHT=16></A>
+</TD></TR></TABLE></BODY></HTML>

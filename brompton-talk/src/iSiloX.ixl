@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<iSiloXDocumentList>
+  <iSiloXDocument>
+    <Source>
+      <Sources>
+	<Path>../sections/index.html</Path>
+	<Path>../sections/Treads.html</Path>
+	<Path>../sections/Tricks.html</Path>
+	<Path>../sections/Treats.html</Path>
+      </Sources>
+    </Source>
+    <Destination>
+      <Title>The Brompton Folding Bicycle FAQ</Title>
+      <Files>
+        <Path>../BromptonFAQ.pdb</Path>
+      </Files>
+    </Destination>
+    <LinkOptions>
+      <MaximumDepth value="1"/>
+      <FollowOffsite value="no"/>
+      <SubDirOnly value="no"/>
+      <UnresolvedDetail value="exclude"/>
+    </LinkOptions>
+    <ImageOptions>
+      <AltText value="include"/>
+      <Images value="include"/>
+      <ResizeLargeImages value="yes"/>
+      <ImproveContrast value="yes"/>
+      <Dither value="yes"/>
+      <MaximumWidth value="256"/>
+      <MaximumHeight value="188"/>
+      <Compress value="yes"/>
+      <BitDepth1 value="exclude"/>
+      <BitDepth2 value="exclude"/>
+      <BitDepth4 value="include"/>
+      <BitDepth8 value="exclude"/>
+      <BitDepth16 value="exclude"/>
+    </ImageOptions>
+    <TableOptions>
+      <IgnoreTables value="no"/>
+      <AddSeparators value="no"/>
+      <UseMinimumDepth value="no"/>
+      <MinimumDepth value="1"/>
+      <UseMaximumBottomReach value="no"/>
+      <MaximumBottomReach value="1"/>
+      <UnfoldFullPageTables value="no"/>
+      <IgnorePixelWidths value="no"/>
+    </TableOptions>
+    <ColorOptions>
+      <BackgroundColors value="keep"/>
+      <TextColors value="keep"/>
+    </ColorOptions>
+    <MarginOptions>
+      <LeftRightMargins value="keep"/>
+    </MarginOptions>
+    <SecurityOptions>
+      <Convert value="allow"/>
+      <CopyBeam value="allow"/>
+      <CopyAndPaste value="allow"/>
+      <Modify value="allow"/>
+      <Print value="allow"/>
+    </SecurityOptions>
+    <TextOptions>
+      <PreUseMonospaceFont value="yes"/>
+      <PreSingleLineBreaks value="KeepAll"/>
+      <ProcessLineBreaks value="yes"/>
+      <ConvertSingleLineBreaks value="no"/>
+      <Preformatted value="no"/>
+      <UseMonospaceFont value="no"/>
+      <MonospaceFontSize value="10"/>
+      <TabStopWidth value="8"/>
+    </TextOptions>
+    <DocumentOptions>
+      <PageBounds value="hard"/>
+      <UseDefaultCategory value="no"/>
+      <HomePageNumber value="1"/>
+      <OpenHomePageOnDateChange value="no"/>
+    </DocumentOptions>
+    <Bookmarks>
+      <Document>
+        <UseFile value="no"/>
+        <UseNamedAnchors value="no"/>
+        <NamedAnchorType value="WordWebPage"/>
+        <UseIncludeFilter value="no"/>
+        <UseExcludeFilter value="no"/>
+      </Document>
+    </Bookmarks>
+  </iSiloXDocument>
+</iSiloXDocumentList>

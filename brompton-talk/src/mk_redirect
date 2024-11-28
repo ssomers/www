@@ -1,0 +1,18 @@
+#!/bin/sh -eu
+mkdir redirect ||:
+mkdir redirect/chapters ||:
+mkdir redirect/sections ||:
+for f in chapters/*.html sections/*.html
+do
+  cat << . > redirect/$f
+<!DOCTYPE HTML SYSTEM><HTML><HEAD>
+<META NAME="ROBOTS" CONTENT="NOINDEX,FOLLOW">
+<TITLE>The Brompton Folding Bicycle FAQ</TITLE>
+</HEAD><BODY>
+The <a href="http://stein.dommel.be/brompton/index.html">Brompton Folding Bicycle FAQ</a> has moved again.
+<p>You should go over to <a href="http://stein.dommel.be/brompton/$f">the latest version of this particular page</a> on the new server.
+<p>If the above links no longer work, try <a href="http://listen.to/Brompton-Talk">listen.to/Brompton-Talk</a>.
+<address>Stein Somers</address>
+</BODY></HTML>
+.
+done

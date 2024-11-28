@@ -1,0 +1,3 @@
+dest="${1-/fd0/}"
+cd ..
+cp -p style.css index.html BromptonFAQ_sections.tgz BromptonFAQ_chapters.tgz "$dest"

@@ -1,0 +1,8 @@
+PERL5LIB=. perl src2html.pl
+tar czvf ../BromptonFAQ_src.tgz *.src *.css prepare.pl src2html.pl newhead.pl iSiloX.ixl archive export save mk_redirect
+tar czvf ../BromptonFAQ_sections.tgz -C .. style.css sections
+tar czvf ../BromptonFAQ_chapters.tgz -C .. style.css chapters
+tar czvf ../BromptonFAQ_pictures.tgz -C .. pictures
+#./iSiloXC -v -x iSiloX.ixl
+#syncdir .. ~/public_html/brompton
+#perl ftpsync.pl -s stein.dommel.be -u ftp31712 -p FYv0yBhr -l ~/public_html/brompton -r brompton -v

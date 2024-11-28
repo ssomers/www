@@ -1,0 +1,485 @@
+<!--*-html-*--><!DOCTYPE HTML SYSTEM><HTML><HEAD><TITLE></TITLE></HEAD><BODY>
+
+#L_or_T_model C or L or T model
+  Since March 2000, there's a C model without mudguards, but noone has
+  bought one and written about it on Brompton-Talk yet.
+  The difference between L and T is:
+    <TABLE BORDER=1>
+      <TR>
+        <TH>
+        <TH>L-model
+    	<TH>T-model
+      <TR>
+	<TH ROWSPAN=4>Physical
+        <TD>no carrier
+        <TD>rear carrier with bungees
+      <TR>
+	<TD>single rear roller on a rather weak stay
+	<TD>two rollers at either side of the sturdy carrier; they can be upgraded to in-line skatewheels ("transport set")
+      <TR>
+        <TD ROWSPAN=2>slightly obscured rear reflector
+        <TD>tyre-side dynamo,
+	    rear light and reflector attached to the carrier
+      <TR>
+	<TD>front light on bracket and double wiring towards it
+      <TR>
+    	<TH ROWSPAN=4>Functional
+	<TD ROWSPAN=4>lighter
+	<TD>can carry large packs (or even a light passenger), although parking
+            at the same time is impossible
+      <TR>
+	<TD>more stable while parked or folded
+      <TR>
+	<TD>easier roll the folded package
+      <TR>
+	<TD>usable but low quality lighting systems;
+            since March 2000, high quality lighting
+    </TABLE>
+  <P>
+  The main issue is the carrier.  
+  If you insist, you can add a carrier yourself (see @add_rear_rack).
+  Adding a front light and wiring yourself is easy, so they don't matter much.
+
+# How usefull is the carrier?
+  You can use it for @stowing_luggage.
+  <UL>
+  <LI>{David Hansen, Apr 1998}
+    I find the rack on the T type very useful for less arduous
+    excursions. My toolkit and spare tyre fit into a pack under the seat.
+    Then my coat can be rolled up and put on the rack. There is then no
+    need for a pannier. Without the front pannier I am not tempted to
+    take useless things along for the ride. The rack is also useful for
+    carrying things when one runs out of space in the front luggage.
+    <BR>
+    Against this is the extra weight when carrying the bike and when 
+    cycling.
+  <LI>{David Hansen, Sep 1999}
+    Very useful for some things, little use for others.
+    <BR>
+    It is good for carrying a folded up coat, letters and other post, a box
+    of A4 paper (the pegs under the rack allow the bungees to be placed so
+    the box doesn't hit one's feet), suitably sized bags, tents, slide
+    projectors, medium rucksacs (rest on it and are also fastened to the
+    saddle) and anything else than can be put on it.
+    <BR>
+    It is little use for fitting most bicycle panniers as it is too small,
+    although small panniers have been fitted right back and Custom Folder
+    supplies some good small ones for it.
+  </UL>
+
+#3_or_5_gears 3 or 5 gears
+    3 speeds hubs win because they are:
+    <UL>
+      <LI>lighter (200g ?)
+      <LI>more robust, as confirmed by expert Dave Holladay (@Custfold).  Details: @GearedHubBreakdown.
+      <LI>reported to be more efficient, some (few!) people even claim that 1st
+    gear on a 3 speed is easier than 1st gear on a 5 speed, despite the 5
+    speed's lower gearing ratio
+      <LI>about &pound;80 cheaper
+      <LI>easier to adjust (requiring less accuracy)
+      <LI>equipped with a simpler, cheaper, smaller gear controller
+      <LI>free of the pertruding 5 speed's Gearing Roller Assembly
+    </UL>
+    5 speeds are better because they:
+    <UL>
+      <LI>have finer (although varying) gaps between gears (still course
+    compared to derailleur gears)
+      <LI>have a wider range (3 speed: 9/4, 5 speed: 16/9)
+      <LI>cannot freewheel while misadjusted or incorrectly engaged (thanks to
+    the Sprinter design)
+    </UL>
+
+  <P>{Keith J Russell}
+  [...] should
+  we fork out the extra UKP 80 for the T5 or stick with the simpler, and
+  perhaps more robust, T3? [...]
+  We'll be using it for light commuting, trips to the shops, train journeys
+  etc.  Definitely won't be touring on it (yes - I kow some hardy folks do)
+  but we'll stick with the tandem for that type of cycling. I can't imagine
+  we'll cover more than ten miles at maximum.
+  <UL>
+  <LI>@GearingChange
+  <LI>{David Evans}
+    It very much depends how hilly it is! I recall that East Lothian, like 
+    Wales, is quite hilly. I would definitely go for a T5 as I have done. The 
+    higher gears are also great for zipping along the flat. The additional ?80 
+    is well worth it.
+  <LI>{Phil Gough}
+    Go for the T3.  I use my T5 for the sort of riding you describe,always carrying  a 
+    case on the front and rarely use the lowest gear, although the high top is great for a burst 
+    of downhill speed occasionally. [...]
+    Unless of course East Lothian is a very hilly part of Scotland!
+  <LI>{Anthony "you can't have too many gears" Cartmell}
+    I'd recommend the T5.  IMHO the extra choice of gears is well worth the
+    extra money.  The current Sturmey-Archer five speed gears are probably
+    as robust as the three speeds (but are slightly heavier?).  Even for
+    short journeys it's amazing how often you meet strong winds and steep
+    hills, and who knows where your Bromptons will take you in the future...
+  <LI>{Andrew Henry}
+    I was faced with the same decision.  Both hubs weigh the same.
+    The gear change with the 3 speed is a bit slower - you have
+    to consciously stop pedalling before the change is made.  With
+    the 5 speed, you can just ease off a little.
+    <BR>
+    The downsides with the five speed are that it is newer, so the
+    long term reliability isn't as well proven as with the 3 speed.
+  <LI>{Stein Somers}
+    I used to be suspicous about the Sturmey Archer 3 speed hub (SA3),
+    because of the problems I had with it.  (I didn't use it properly
+    though).
+    The main problem was the failure mode: the SA3 would drop in between
+    gears when you were pushing hard on the peddles, so there was nothing
+    stopping you anymore, except certain body parts hitting hard metal.
+    <BR>
+    So I was even more worried about the SA5.  I did purchase a T5
+    (recently, with a single cable).
+    It got misadjusted in the beginning (the locker nut was not tightened),
+    but didn't fall in between gears, it just doubted between gears.
+    I immediately corrected it and it's still fine after 1500 km.
+    So, regardless of the number of gears, I definitely prefer the SA5.
+    It switches between gears more easily as well.
+    <BR>
+    I also know of one major drawback of the SA5: I slipped and fell
+    on the first ice of this winter, and the SA5 gear controller broke.
+    It is plastic (junk), whereas my old SA3 used to have a decent metal
+    controller.  And I had to pay (the equivalent of) 14 pound sterling
+    for a replacement!
+  <LI>{Peter Amey}
+    The current T5s have only one cable for the Sturmey Archer and it is no 
+    more difficult to remove than the 3-speed (it does require a bit more 
+    accuracy when adjusting).  
+  <LI>{Malcolm Lyon}
+    The latest [5-speed] Sturmey hub is called 'The Sprinter'
+    and is controlled by a single cable.
+    A feature of this is that it has no 'slipping position' -
+    the gears are continuously in 'drive' whilst changing up or down.
+  <LI>{Phil Gough}
+    my T5 is an elderly model fitted with the old twin cable SA-5/2 hub -
+    which, incidentally, despite being maligned by 
+    some is still perfectly satisfactory after 8 years
+    and nearly 10,000 miles of use.
+    But in truth, it got a lot better
+    when one of the later rear fork assemblies was fitted, as this 
+    allowed much better alignment of the cables and less friction in use.
+  <LI>{Meryl Prestidge}
+    why does the Folder keep saying the gears on a
+    T5 are not adequate in hilly regions?  I'm in Plymouth, UK and my T5
+    with 18% gear reduction seems fine so far.  21 might be better, but 5
+    do the job.
+  <LI>{Carl Etnier}
+    [...] the guy at the shop warned me not to get a T5. If the hub fails, he
+    said, you're shpxrq.
+  <LI>{Peter Amey}
+    I don't think the 5-speed Sprinter (single cable) hubs are inherently more
+    of a problem than 3-speeds and they are just as easy to service. 
+    <BR>
+    Having said that I have just found mine to be very (very) badly worn
+    internally after rather less service than I think it ought to have given. 
+    I sent a FAX to Sturmey Archer this morning saying that the wear was too
+    high and they called about an hour ago to offer me a free replacement set
+    of internal parts;  pretty good service I would say. 
+    <BR>
+    My only regret about the more recent hub gears is the lack of an oil port. 
+    I know the greased-and-sealed-for-life arguments well but remain convinced
+    that a regular weekly flooding with oil is a better solution for hub
+    gear longevity. 
+  <LI>{Leonard Rubin}
+    Many years ago I used to own bicycle shops in New England, and used to
+    specialize in all things Sturmey Archer. The five speed hubs were always
+    much more fussy than the good ol' AW (venerable three speed model). They
+    have much shorter indicator chain (that's the proper name for the little
+    chain that pulls the rod that moves the gears inside the hub) travel
+    between gears, and it's hard enough to hold the adjustment on a non-folding
+    bike! Alignment is indeed critical, as the use of a good quality cable,
+    housing, lever and lubricant throughout the system. There used to be a few
+    different lengths of indicator rods (the bit inside the hub that is
+    attached to the indicator chain, sometimes I found a manufacturer used the
+    wrong length rod for a particular axle/nuts configuration, though I am not
+    suggesting that is the case here.
+  <LI>{Simon Shearn}
+    I've got a T3 (three-speed without any gear reduction) and find that
+    climbing gradients steeper than 10% is difficult -  the Brompton isn't the
+    sort of bike where you can come out of the saddle when the going gets
+    steep. If you're planning to do hills frequently you might want to consider
+    a 5-speed or one of Brompton's gear-reduction options.
+  <LI>{David Henshaw, Mar 98}
+    My 3-speed regularly undertakes journeys of 30 miles or 
+    so, and we've ridden 60-70 without ill effects. This is in moderately 
+    hilly country too. The secret is in the choice of gear ratios - they are 
+    spot on.
+    So my advice would be - go for the little bike with minimal gears and a 
+    big heart. But make sure to fit a decent saddle and Primo high-pressure 
+    tyres.
+  <LI>{Custfold, Apr 1998}
+    For proven reliability use the 3-speed which in AW form has remained
+    virtually unchanged in design for over 60 years - and some 60 year old
+    versions are still going strong.
+    <BR>
+    The 5 speed has more bits = more bits to go wrong 
+    <BR>
+    There have been several 2 cable versions - the SA5 and 5-star spring to mind
+    as both have been on the Brompton, then we got the 1 cable Sprinter with the
+    C**p plastic changer which wears out - and the rather fine adjustmant of the
+    cable to make the 2 stage sliding dog work.
+    <BR>
+    As the 5 speed has this larger sliding dog bit there is a bigger slot in the
+    axle -making it weaker - and I've bust several 5 speeds against only 1 AW
+    which was when I was 14 and through crass incompetence rather than loading.
+  <LI>{Tom Bennett, Aug 1999}
+    I'm glad I bought the 5 gear model.  In cycling around France this
+    summer, I used all five gears regularly.  I never biked at night in the
+    country, so I had no need for the T model.  Also, the Pannier system worked
+    perfectly well, so I never needed a rack for the rear wheel.  Therefore, I
+    recommend buying an L5 with the Pannier system.
+  <LI>{Peter O'Reilly, Oct 1999}
+    I live in Manhattan as well and have an L5 with no gear reduction.
+    <BR>
+    I opted for the 5 speed due to the obvious reason of a greater variety of
+    gears, but I think the 3 speed is more than adequate for Manhattan. For
+    longer excursions, you may find the extra gears to be of great benefit.
+    <BR>
+    As for no gear reduction, I opted for that since my body is accustomed to
+    riding a bicycle.  Channell persuaded me to not go for reduced gearing -
+    which was on the mark indeed.  Although, I did hedge my bets and purchased a
+    rear sprocket for something like $5.  (It's still in the wrapper and not
+    likely to be used at this point).
+    <BR>
+    With all that said, I rarely use the 4th gear.  Out of pure curiousity I
+    tried out the 5th gear once on my Brompton.  At the speed 4th or 5th gear
+    dictates (20+ mph?), I'd personally prefer to coast down a hill given the
+    design and intedend use of the Brompton coupled with urban road conditions
+    and traffic.  To that end perhaps reduced gearing would be of benefit -
+    allowing a greater range of gearing for gears that will be *frequently*
+    used.
+  <LI>{Stein Somers, Oct 1999}
+    In '96 I opted for the 5 speed and never regretted it.  I reject the
+    statement that 3 gears is enough for Manhattan.  I've never been
+    anywhere near to it, but I remember it being close to sea, so even if it
+    is flat as a dime the wind will compensate for that. Also recent
+    activities, be they labourous or social events, can greatly influence
+    the gear chosen.  Anyway, I'd rather use the 5 speed's 3 middle gears
+    than the 3 speed's widely spaced gearing.  I think you limit your
+    Brompton to a 3 speed only if you have a particular reason to: being
+    exceptionally strong, lacking in cash, plannig to transport the Brompton
+    more than ride...
+  <LI>{David Cox, Oct 1999}
+    I reckon that the cheapest L3 is fine for Manhattan, I had a good 3 days
+    riding around the island Memorial weekend and never felt the need for more
+    or lower gears. The 3 speed is still in my humble opinion Sturmey's best
+    ever product - reliable and easy to adjust.
+  <LI>{Julie Kosicki, Oct 1999}
+    I agree with [3 gears], unless you happen to carry heavy-ish loads (e.g
+    camping gear) and / or tend towards knee ache.  I carry a lot of paper files
+    and overnight gear on mine and now and again (age rather than riding
+    position) get the odd bit of knee pain.  So I find the extra two gears and
+    lower gearing very handy, even on the relatively gentle slopes of much of
+    London, but most definitely in the hilly district where I live.  If you're
+    travelling around the country on your Brompton or abroad, the extra gears
+    would certainly be a good investement : You're bound to meet a challenging
+    hill sooner or later.
+  <LI>{Reuben Winitch, Oct 1999}
+    I used to have the L5 and now I have an L3.  I was much happier with the extra
+    gears.  Neither were reduced.
+  <LI>{Jim McLaughlin, Oct 1999}
+    I have the 50/14, although I will probably switch back to the 13 tooth.  When I
+    was in the mountains with a 50 pound trailer and the temperature was over 100
+    degrees F, I put a 36 tooth in front.  That was low enough to prevent heat
+    stroke.  The lowest gear was about 11 inches with the 36 tooth, low enough to
+    spin out at 2 or 3 miles per hour.  After about 40 miles of riding in the
+    mountain heat I was surprised that I felt a lower gear yet would be useful on
+    those 3 mile long ascents.
+  <LI>More numbers in @HubGearEfficiency
+  </UL>
+
+#reduced_gearing Reduced gearing
+  In the comments below, take notice that since March 2000, 12% reduction became
+  standard on 5 speed models.
+  <P>{Clive Page, Apr 2000}
+    Just in case anyone else is still as confused as I was about the gear
+    options on the new Bromptons, I have here a leaflet from the Brompton
+    Bicycle Ltd dated March 2000 which sets it out in terms I can understand
+    (i.e. inches):
+    <TABLE BORDER=1>
+    <TR><TD>L3 & T3<TD>   <TD>47"<TD>63"<TD>84"<TD>   <TD>50 teeth x 13 teeth
+    <TR><TD>L5 & T5<TD>37"<TD>44"<TD>56"<TD>70"<TD>84"<TD>44 teeth x 13 teeth
+    <TR><TD>C3     <TD>   <TD>44"<TD>58"<TD>78"<TD>   <TD>46 teeth x 13 teeth
+    </TABLE>
+    Options are:
+    <TABLE BORDER=1>
+    <TR><TD>3-speed models<TD>12% lower  or 18% lower.
+    <TR><TD>5-speed models<TD>14% higher or  7% lower.
+    </TABLE>
+  <UL>
+  <LI>{David Henshaw}
+    For all it's worth, if you are buying 
+    a 5-speed Brompton, we would certainly recommend the full 18% reduction. 
+    We have ridden our 3-speed machines in San Francisco without any 
+    reduction, so we know what the hills are like, and would probably prefer 
+    lower gears if we cycled in S F every day.     
+  <LI>{Andew Mackay}
+    I have tried the 0%, 12% and 18% reductions and from the description
+    of what the type of riding to be attempted I would strongly suggest a 12 %
+    reduction.  Since the bike is not to be used for touring and the down-hill
+    speed is not of the essence, the most benefit of the gearing can be
+    obtained from a lower ratio to allow pedalling up the steepish San
+    Francisco hills.
+  <LI>{Phil Gough}
+    The human legs are a pretty good and flexible gear system. 
+    After about a month you won't need those lowered gears and will able 
+    to use the high ones to whizz down those hills.
+  <LI>{David Edge, Sep 1998}
+    [How is the 18% reduced gearing achieved]
+    44T chainwheel vice 50T and 14T sprocket vice 13T.
+  <LI>{John Newgas, Nov 1998}
+    I live near the top of Highgate Hill in North London - the highest
+    point in London.  I found that the 12.5 % reduction was pretty
+    successful in making the hill manageable with a Three Speed Brompton.
+    <BR>    <BR>
+    The hill however is so long that my stamina runs out at the end of a
+    days work, and I sometimes walk the last part.  Having borrowed a
+    multi- speed non-folder I realise that the gearing doesn't actually
+    make the hill go away - the problem is me and my general condition.
+  <LI>{Tom Bennett, Aug 1999}
+    I recommend the 12 % gear reduction.  With the original gearing, I spent
+    most of my time in gears 1,2, and 3, and no time in 4 or 5.  With 12%
+    reduction, I found myself using all the gears.  It seems to be an axiom that
+    easier gears are a necessity, whereas harder ones are a luxury.  I don't find
+    myself zooming downhill, craving more speed nearly as often as I find myself
+    puffing uphill, desirous of less stress.  My elfish wife has the 18%
+    reduction, which she finds excellent, but is slightly too easy for me.  I am
+    6 feet tall and very athletic.  Nevertheless, I found myself using first gear
+    quite often.  My observation is that European cyclists tend to spend more
+    time in harder gear, where Americans prefer to keep those legs spinning fast.
+  <LI>{Nico J. de Boer, Aug 1999}
+       [...] the reduced gearing (42 teeth front, 14 teeth back) only gives
+    you one low gear extra (as compared to the original 50-13 T5), and this
+    is completely inadequate for unathletic people like us to be able to
+    cycle uphill with luggage (2.5kg front, 14kg back). On hills steeper
+    than 15% we had to push instead of cycle. Maybe for the really strong a
+    42-14 T5 is all they need, but for us there is no alternative but to
+    start saving for a Swiss Mountain Drive. (Any Bromptoneers having
+    experience with luggage and a Mountain Drive?)
+  <LI>{Jim McLaughlin, Aug 1999}
+    I pulled a 50 pound trailer through the Appalacians this summer in 100+ degree
+    F heat.  In addition to the mountain drive, I dropped the front chainring to
+    36 tooth (I think it is 14 in back still).  My target was to keep my heart
+    rate below 135 and I just barely did so in the heat.  If I recall, that range
+    was about 10.5 to 64 gear inches.  Now that I have the 50 tooth back on the
+    front, I think it is around 15 to 89 gear inches.
+  <LI>{De Clarke, Aug 1999}
+    What Channell told me, untechnically, was that if you
+    bike anywhere that is not absolutely flat, you want
+    the 18 percent reduction.
+    <BR>
+    Having ridden the bike with 18% reduction I agree
+    with him :-)
+  <LI>{Chris Newport, Sep 1999}
+    Despite the availability of 12% and 18% reductions and people saying
+    they 'never use 5th gear' etc. etc. I personally spend > 90% of my time
+    in 5th (commuting between Kew and the City of London daily - pretty flat
+    except for Holland Park Avenue), < 5% in 1st, my legs generate more
+    torque than power and I generally often find myself wanting a 6th gear.
+  <LI>{Stein Somers, Oct 1999}
+    I'm down from the standard 50/13 set-up
+    to 50/14 and still slightly long for a smaller chainring.  I favour a 14
+    tooth sprocket because it's better a keeping the chain from jumping off
+    (probably also at keeping you from putting it back should it happen
+    anyway), wears slower, and should be more efficient. However I
+    understand only the 18% reduction includes this 14 tooth sprocket and
+    18% seems a bit too slow to me.  12% reduction is 44/13 and 18%
+    reduction is 44/14.  At least in Europe, 46 teeth fixed chainring are
+    very common, but they don't (all) fit on a Brompton, so it's not easy to
+    change the chainring.  The sprockets are hard to find anyway, whether 13
+    or 14 tooth.
+  <LI>{Giles Robinson, Oct 1999}
+    Gosh, I'm tempted to say "beware high gear evangelists", but I'm sure the
+    intention is good.  I have a 12% reduced T5 and use : 2nd, 3rd, 4th more or
+    less equally; 1st quite often, going up steepish hills it is certainly
+    easier than 2nd; 5th almost never.  I almost regret not getting the 18%,
+    but the 12% 5th does have its uses.  We do have hills in
+    Manchester/Stockport (UK), but it's mostly pretty flat.
+    <BR>
+    When buying, I compared potential Brompton gear ratios to those I use most
+    often on my other bikes -- do this if possible.  If (like me) you prefer to
+    twiddle than push, the Brompton default setting will look too high.
+    <BR>
+    Some people just seem to be able to go fast, I wish I were one of them.  A
+    Brompton occasionally used to pass me on the way home from work, & I
+    couldn't catch it (on my touring bike).
+    I have two T5, both bought with standard transmission. Main advantage is
+    that
+    3rd gear, where the hubs internal efficiency is best, reaches high enough
+    for
+    most cruising. Various Experts recommend pedalling about 90 rpm, which is
+    above 27 km/h In 3rd gear. 4th and 5th gear are left for going downhill or
+    with
+    favourable winds. I changed the rear sprocket on both bikes to 14 teeth,
+    giving
+    8% reduction. This requires an extra pair of links in the chain, giving 100
+    links.
+    That is twice as much as the teeth on the chainring and, in theory, causes
+    additional wear of the chain. Even with that transmission I had not much use
+    for
+    5th gear. Some weeks ago I converted to 18% reduction by changing the
+    chainring to 44 teeth (no, it was not worn:) . I am perfectly happy with it.
+    I find the
+    standard transmission suitable in summer on a lonely cycle-path with
+    favourable
+    winds and 120 Psi in the Primo tires, but riding in city traffic with
+    dynamo, rain
+    jacket and facing winds I feel I cannot save 2 of 5 gears for rare
+    occasions.
+    Best advice is to compare the transmissions availiable by Brompton to that
+    You
+    favour on Your current bike. Even if that leads to false conclusions,
+    conversion is
+    simple.
+  <LI>{R. Maynard, Oct 1999}
+    I'd endorse this. I've had an L5 with 18% gear reduction for about 2
+    months. Around Dublin (mostly flat) I rarely felt the need for a higher
+    gear. Here in Seattle (hilly) I often use the lowest gear.
+  <LI>{Jim McLaughlin, Oct 1999}
+    The thought of using 5th gear 90% of the time makes my knees hurt.  But I'm not
+    young and can't maintain 20 mph for more than a few miles.  And I'm determined to
+    never see a knee surgeon.
+    <BR>
+    I wonder if it is understood that 1st and 5th are the same gears running backwards
+    and forwards so to speak.  So the efficiency is similar.  There are technical
+    drawings at sturmey-archer.com
+    <BR>
+    In my humble opinion, you can never have enough gears unless you never go anywhere
+    or carry any loads or hit any winds or hills.  If you do none of those things, you
+    must not have a bike.  Someday we'll have ergonomic front wheel drive folding
+    recumbents with light, efficient transmissions spanning a ten to one range with
+    steps of 8%.  That would be at least 30 gears with no overlap.  Meanwhile, get as
+    many as you can afford.  It's much more important than, say, a fast computer.
+    <BR>
+    But please, folks, try to keep your pedaling cadence up to 80 rpm or at least 70
+    rpm most of the time.  It will keep you riding for many more years than grinding
+    away in a too high gear.  You'll get used to it, albeit slowly.
+  <LI>{Matt Hayworth, April 2000}
+    At first I
+    thought I had made a mistake in getting the T5 and 18% reduced gearing (since
+    I felt like I wanted a higher gear) but when I hit one murderous little hill,
+    I could see why someone might want a greater range at the bottom end.
+  </UL>
+
+#seatpost_height Do I need a longer or telescopic seat post?
+  <UL>
+  <LI>{Bruce Boysen}
+    With the seatpost
+    fully extended my seat is still a good half inch too low. I know I can get a
+    longer post, but I'm hoping a new seat would get me enough height. My
+    question is, will I be able to get at least a half inch by changing seats &
+    if so, what seat (I'd prefer a good leather seat...Brooks?) will give me the
+    most additional height?
+  <LI>{Bob Warwick}
+    I am 5 foot 11 inches and found that the seat post was too short - I ended up
+    buying the extended tube which is fine for length, although I expect if you are
+    much over 6 foot you may need it longer still.
+  <LI>{Bruce Boysen}
+    Yesterday I put a Brooks Conquest seat on the brompton & it gives me
+    enough leg extension with the standard post. I'm 6' tall. It adds alot of
+    height & the springs on the saddle make for a very plush ride, its the most
+    comfortable saddle I've owned. An added advantage is it also looks great.
+  </UL>

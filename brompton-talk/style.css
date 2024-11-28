@@ -1,0 +1,11 @@
+body { background-color: #F2F6DE; color: maroon }
+h1 { color: black}
+h2 { color: black }
+h3 { color: #333333 }
+h4 { color: #666666 }
+table.toc { color: #804020 ; background-color: #F4EEC8 }
+em.from { color: #074118; font-style: italic; font-size: smaller; font-family: Geneva, Arial, Helvetica, sans-serif }
+table.banner { color: #624510; background-color: #DCDEC2; font-style: italic; font-size: smaller; border-spacing: 0; border: none; border-left: 2px solid black; border-right: 2px solid black }
+table.banner td { padding: 2px; font-style: italic; font-size: smaller; border-left: 2px solid black; border-right: 2px solid black }
+a.quick { font-size: smaller }
+table.card { color: #336699; background-color: white; padding: 8px; border: outset 1px }
